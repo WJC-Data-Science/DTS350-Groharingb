@@ -1,0 +1,146 @@
+---
+title: "RForDataScienceNotes"
+author: "Brooks Groharing"
+date: "9/9/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+URL: 
+https://r4ds.had.co.nz/transform.html
+
+
+```{r include = FALSE}
+library(nycflights13)
+library(tidyverse) #overwrites states::filter()
+```
+nycflights13 includes NYC flights, from 2013
+
+tibble- special type of df tweaked for tidyverse
+
+| type | desc |
+| --- | ----- |
+| int |integer|
+| dbl |double |
+| chr |string |
+| dttm |date/time|
+| lgl |boolean|
+| fctr |factor(categorical var w/ fixed levels)|
+| date |...date|
+
+
+## Operators
+OR: |
+AND: &
+NOT: !()
+
+### filtering
+
+gets rows that fit given criteria
+
+filter() only returns NA if requested (is.na())
+
+
+(filter(flights,month==1,day==1))
+
+filter(flights, !month == 11 && day == 1)
+nov_dec <- filter(flights, month %in% c(11, 12))
+
+
+---
+
+### arrange()
+
+arrange() orders rows by given column(s)
+
+syntax: arrange(flights,month,desc(day))
+
+---
+
+### select()
+select gets specific columns
+
+syntax: select(flights,year,month,Day = day)
+
+### mutations
+
+Mutate to compute new columns and append;
+transmute() only uses new variables
+
+```{r}
+flights_sml <- select(flights, 
+  year:day, 
+  ends_with("delay"), 
+  distance, 
+  air_time
+)
+mutate(flights_sml,
+  gain = dep_delay - arr_delay,
+  speed = distance / air_time * 60
+)
+
+transmute(flights,
+  gain = dep_delay - arr_delay,
+  hours = air_time / 60,
+  gain_per_hour = gain / hours
+)
+```
+
+also useful- mean(), sum()
+
+%% remainder
+
+%/% integer division
+
+^ for powers
+
+log(),log2(),log10()
+
+---
+### summarise()
+
+summarise() gives summary data
+pair with group_by()
+
+REMEMBER- na.rm is needed in aggregates to ignore missing values; most operations on na will return na.
+
+```{r}
+summarise(flights, delay = mean(dep_delay, na.rm = TRUE))
+
+by_day <- group_by(flights, year, month, day)
+summarise(by_day, delay = mean(dep_delay, na.rm = TRUE))
+```
+
+### Pipe %>%
+Use the pipe to run a series of commands, without intermediate steps cluttering everything. ex:
+
+```{r}
+delays <- flights %>% 
+  group_by(dest) %>% 
+  summarise(
+    count = n(),
+    dist = mean(distance, na.rm = TRUE),
+    delay = mean(arr_delay, na.rm = TRUE)
+  ) %>% 
+  filter(count > 20, dest != "HNL")
+```
+
+### Stats stuff
+
+various useful functions: 
+
+min(x)
+
+max(x)
+
+sd(x)
+
+n(x)
+
+n_distinct(x)
+
+sum(!is.na(x))
+
+count(x)
