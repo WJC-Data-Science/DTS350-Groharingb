@@ -1,0 +1,29 @@
+---
+title: "Case Study 2"
+author: "Brooks Groharing"
+date: "9/6/2020"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Background
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+
+```{r pressure, echo=FALSE}
+source("casestudy2.r")
+plot(plot1)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
