@@ -1,2 +1,2 @@
 # DTS350-Groharingb
-This is a line from RStudio
+Hi, I'm Brooks. I'm a senior at WJC.
