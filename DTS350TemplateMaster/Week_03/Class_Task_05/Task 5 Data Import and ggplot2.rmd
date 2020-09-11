@@ -1,0 +1,63 @@
+---
+title: 'Task 5: Data Import and ggplot2'
+author: "Brooks Groharing"
+date: "9/10/2020"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro
+
+### What I learned
+I learned:
+  -How to download online datasets and libraries in code
+  -How to import .csv files, and how R tries to interpret their values 
+  -More options in ggplot, like blanking out elements and adding offset labels with ggrepel
+  -More options for graph themes and color schemes
+  
+### What I found difficult
+I had some difficulty importing the dataset from 538 (below).
+
+```{r include = FALSE, collapse=TRUE}
+library(tidyverse)
+```
+
+## FiveThirtyEight Data
+
+The dataset I grabbed is from 538's "Tracking Congress In The Age Of Trump," a live page tracking how often each member of congress votes in line with the President, and ranks them all.
+
+Link to webpage: https://projects.fivethirtyeight.com/congress-trump-score/
+Link to datasets: https://github.com/fivethirtyeight/data/tree/master/congress-trump-score
+
+I downloaded just the averagess.csv dataset for this assignment, and ignored the voting predictions data.
+
+### Importing it
+
+```{r results='hide'}
+download.file("https://projects.fivethirtyeight.com/congress-tracker-data/csv/averages.csv","congress-tracking.csv")
+
+df = read_csv("congress-tracking.csv")
+```
+
+### Data Manipulations
+
+First I consolidated individual politicians:
+```{r,collapse=TRUE}
+politicians = summarise(group_by(df,last_name,chamber,state,district), avg = mean(agree_pct,na.rm=TRUE))
+```
+Then, I averaged their "Trump scores" by state.
+```{r,collapse=TRUE}
+states = summarise(group_by(politicians,state),mean(avg,na.rm=TRUE))
+```
+
+### Saving Transformed Data
+Lastly, I saved the aggregated state data as a .csv.
+
+```{r}
+write.csv(states,"AgreementScoreByState.csv")
+```
