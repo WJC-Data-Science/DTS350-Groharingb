@@ -39,8 +39,8 @@ titletext = "Economic decline in the second quarter of 2020"
 subtext ="The percentage decline of GDP relative to the same quarter in 2019. It is adjusted for inflation."
 captiontext = "Source: Eurostat,OECD and individual national statistics agencies."
 
-bottomColor = rgb(247,239,71,maxColorValue = 255)
-topColor = rgb(49,45,123,maxColorValue = 255)
+topColor = rgb(247,239,71,maxColorValue = 255)
+bottomColor = rgb(49,45,123,maxColorValue = 255)
 
 #Building graph
 Economy = ggplot(data=decline,aes(x=reorder(Entity,Growth),y=Growth)) +
@@ -71,7 +71,7 @@ Economy
 
 This graphic is reproduced from one featured in an Our World in Data report on the effect that COVID-19 and the recession have had on different countries' economies, and how this related to the scale of their health response. The scale on the y-axis represents percentage growth of each country's economy since 2019. With the exception of China (not pictured), all nations recorded in the original dataset experienced negative growth.
 
-<font size="2">[Link to Source Data](ourworldindata.org/covid-health-economy)</font>
+<font size="2">[Link to Source Data](http://ourworldindata.org/covid-health-economy)</font>
 
 
 ## Childhood Mortality Visualization

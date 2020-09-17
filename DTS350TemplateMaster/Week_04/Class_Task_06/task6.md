@@ -21,7 +21,7 @@ output:
 
 This graphic is reproduced from one featured in an Our World in Data report on the effect that COVID-19 and the recession have had on different countries' economies, and how this related to the scale of their health response. The scale on the y-axis represents percentage growth of each country's economy since 2019. With the exception of China (not pictured), all nations recorded in the original dataset experienced negative growth.
 
-<font size="2">[Link to Source Data](ourworldindata.org/covid-health-economy)</font>
+<font size="2">[Link to Source Data](http://ourworldindata.org/covid-health-economy)</font>
 
 
 ## Childhood Mortality Visualization
