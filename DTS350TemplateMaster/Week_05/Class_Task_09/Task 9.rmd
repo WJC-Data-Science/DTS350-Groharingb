@@ -1,0 +1,42 @@
+---
+title: "Task 9.rmd"
+author: "Brooks Groharing"
+date: "9/24/2020"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Strengths
+
+* I put a lot of time and effort into making visualizations for assignments.
+    + Hopefully that's translating into *good* visualizations? I've gotten good feedback in team meetings, at least.
+* Related to that, I've gotten pretty good at finding resources to solve coding problems, and dealing with bugs when I encounter them.
+
+### Areas for Improvement
+
+* I haven't done a great job at actually finishing and uploading tasks on time.
+* Especially in the last two weeks, I've been losing track of deadlines, and sometimes forgetting things we talked about in class.
+	
+### Goals
+
+##### **Goal:** Finish and upload assignments more consistently
+
+My Plan:
+	
+* Split assignments into actionable sub-tasks. (Shouldn't be that difficult, since our assignments are already organized into bullet points.)
+* Fit these smaller chunks into my schedule, throughout the day if necessary.
+* Commit and push when said chunks are complete, and not just when I'm done.
+
+
+##### **Goal:** Retain more
+
+My Plan:
+
+* Take more notes in class, and review these later in the day so it sticks.
+* Be more proactive in asking questions.
+* Sleep more consistently, if possible.
