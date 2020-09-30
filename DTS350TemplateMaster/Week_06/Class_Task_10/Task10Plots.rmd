@@ -1,0 +1,94 @@
+---
+title: "Task10Plots.rmd"
+author: "Brooks Groharing"
+date: "9/30/2020"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Departure Delay by Carrier
+
+```{r,include=FALSE}
+library(ggplot2)
+library(dplyr)
+library(nycflights13)
+
+fl_bp <- flights %>%
+  ggplot(aes(x = carrier, y = dep_delay))
+
+final_fl_bp = fl_bp + geom_boxplot() + 
+  labs(title="Departure Delay Boxplots by Carrier") + 
+  xlab("Carrier Abbreviation") + 
+  ylab("Departure Delay (minutes)") +
+  coord_cartesian(ylim=c(50,100)) +
+  scale_y_continuous(breaks=(1:6)*15)
+```
+
+```{r}
+final_fl_bp
+```
+
+This shows the distribution of departure delays, broken down by airline. The y-axis has been limited to compensate for some incredibly late outliers. Otherwise, the data would hardly be readable. From this plot, I learned about coord_cartesian(), which is a more compact way of limiting multiple axes (as I do in the next plot).
+
+
+## Departure Delay by Departure Time
+
+
+```{r,include=FALSE}
+fl_sc <- flights %>%
+  filter(dep_time > 800, dep_time < 900) %>%
+  ggplot(aes(x = dep_time, y = dep_delay))
+
+final_fl_sc = fl_sc + geom_point(aes(color = origin)) +
+  labs(title = "Departure Delay For Each Departure Time") + 
+  xlab("Departure Time") + 
+  ylab("Departure Delay (minutes)") +
+  coord_cartesian(ylim=c(50,100)) +
+  scale_y_continuous(breaks=(1:6)*15) +
+  scale_x_continuous(breaks=(1:(860/15))*15) +
+  scale_color_brewer(palette="Accent") + 
+  theme_minimal() + theme(
+    axis.text.x=element_text(angle=35)
+  )
+
+```
+
+```{r}
+final_fl_sc
+```
+
+This groups the delay data by each flight's departure time. The data are limited to 8-9am, since otherwise the graph would be difficult to read. Here I learned that when making integer sequences, R will let you use a non-int number in your bounds. This prevents you from having to find the end position by hand when creating breaks at a set interval. 
+
+## Car Efficiency by Class
+
+
+```{r,include=FALSE}
+
+best_in_class <- mpg %>%
+  group_by(class) %>%
+  filter(row_number(desc(hwy)) == 1)
+
+empty = filter(best_in_class,TRUE==FALSE)
+
+cargraph = ggplot(mpg, aes(displ, hwy,color=class)) +
+  geom_point(aes(colour = class),size=4) +
+  geom_point(size = 3, shape = 21, fill="white", data = best_in_class) +
+  geom_point(data=empty,aes(displ, hwy,color=class),size=4) + #just for fixing the legend
+  ggrepel::geom_text_repel(aes(label = model), data = best_in_class, force=10,box.padding = .7,seed=42) +
+  xlab("Engine displacement") + ylab("Miles per gallon (highway)") +
+  scale_color_viridis_d() +
+  theme_bw()
+```
+
+```{r}
+cargraph
+```
+
+
+This graphs engine displacement versus highway gas mileage in a bunch of cars, and then groups them by vehicle category. I learned how to layer elements to change one point type without altering the legend, and how to manually set a ggrepel seed so the resulting placements are reproducible.
+
