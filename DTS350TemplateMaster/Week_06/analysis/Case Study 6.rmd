@@ -1,0 +1,73 @@
+---
+title: "Case Study 6.rmd"
+author: "Brooks Groharing"
+date: "10/5/2020"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(dplyr)
+library(ggrepel)
+```
+
+## What Drives Diamond Pricing?
+
+As you would expect, diamond price generally goes up with diamond size, whether measuring by dimensions or carat weight.
+```{r, echo=FALSE}
+sized = mutate(diamonds,
+  size = case_when(
+   carat <= 1 ~ "Small Carat\n(<= 1 )",
+   carat >= 4 ~ "Large Carat\n(>= 4 )",
+   TRUE ~ "middle"
+  )) %>% filter(size != "middle")
+sizes = sized %>% group_by(size) %>% summarise(price=mean(carat))
+colors = c("#AAAA00","blue")
+
+ggplot(data=diamonds,aes(x=price)) + 
+  geom_density(data=filter(diamonds,carat<=1),color=colors[1]) + 
+  geom_density(data=filter(diamonds,carat>=4),color=colors[2]) +
+  geom_text(data=sizes,aes(label=size,y=10^-4,x=c(16000,1800))) +
+  xlab("Price") + ylab("Density") + ggtitle("Price Distribution, Small vs. Large Diamonds") +
+  theme_bw()
+
+ggplot(data=mutate(diamonds,volume = x*y*z),aes(x=volume,y=price)) +
+  geom_point() + xlim(c(0,1000)) + ggtitle ("Diamond Price by Volume") +
+  xlab("Volume (length x*y*z)") + ylab("Price") + theme_bw()
+
+```
+
+(The volume plot is distibuted similarly to individual x, y, and z length distribituions.)
+
+
+You might expect that prices should be determined to some extent by the quality of the individual diamond. Oddly enough, prices actually go down as you improve eiher the cut or quality of the diamond:
+
+```{r, echo=FALSE}
+ggplot(data=diamonds,aes(x=color,y=price)) + geom_boxplot() +
+ggtitle("Diamond Price by Color Rating") + xlab("Color Rating\nFrom D (best) to J (worst)") +
+ylab("Price") + theme_bw() 
+
+ggplot(data=diamonds,aes(x=cut,y=price)) + geom_boxplot() +
+  ggtitle("Diamond Price by Cut") + xlab("Cut Rating") +
+  ylab("Price") + theme_bw() 
+```
+
+
+As it turns out, this apparent discrepancy is likely due to the fact that diamond weight also tends to go down with increasing quality of color and cut (relationship graphed below). **This suggests that size is the single most important determining factor in driving diamond prices.**
+
+
+```{r, echo=FALSE}
+ggplot(data=diamonds,aes(x=color,y=carat)) + geom_boxplot() +
+  ggtitle("Diamond Carat by Color Rating") + xlab("Color Rating\nFrom D (best) to J (worst)") +
+  ylab("Weight, Carat") +
+  theme_bw()
+
+ggplot(data=diamonds,aes(x=cut,y=carat)) + geom_boxplot() +
+  ggtitle("Diamond Carat by Cut Quality") + xlab("Cut Rating") +
+  ylab("Weight, Carat") +
+  theme_bw()
+```
