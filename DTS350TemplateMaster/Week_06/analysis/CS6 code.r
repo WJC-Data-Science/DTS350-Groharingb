@@ -68,30 +68,30 @@ ggplot(data=diamonds,aes(x=clarity,y=price)) + geom_boxplot() +
 xlab("Clarity") + ylab("Price") + theme_bw()
 
 #prices have no obvious relationship with depth.
-ggplot(data=diamonds,aes(x=depth,y=price)) + geom_point() + theme_bw()
+ggplot(data=diamonds,aes(x=depth,y=price)) + geom_point(alpha=0.05) + theme_bw()
 
 
 #No obvious relationship between table and price.
 #Table: width of top of diamond relative to widest point (43–95)
-ggplot(data=diamonds,aes(x=table,y=price)) + geom_point() + 
+ggplot(data=diamonds,aes(x=table,y=price)) + geom_point(alpha=0.05) + 
 xlim(c(50,70)) + theme_bw()
   #It looks like the data points are clustered at round table
   #numbers, and cover the span of prices pretty evenly.
 
 
 #Less surprisingly, larger diamonds are more expensive.
-ggplot(data=diamonds,aes(x=x,y=price)) + geom_point() + 
+ggplot(data=diamonds,aes(x=x,y=price)) + geom_point(alpha=0.03) + 
   xlim(c(0,10)) + xlab("Length (mm)") + theme_bw()
 
-ggplot(data=diamonds,aes(x=y,y=price)) + geom_point() + 
+ggplot(data=diamonds,aes(x=y,y=price)) + geom_point(alpha=0.03) + 
   xlim(c(0,10)) + xlab("Width (mm)") + theme_bw()
 
-ggplot(data=diamonds,aes(x=z,y=price)) + geom_point() + 
+ggplot(data=diamonds,aes(x=z,y=price)) + geom_point(alpha=0.03) + 
   xlim(c(0,10)) + xlab("Depth (mm)") + theme_bw()
 
 #Same goes for volume
 ggplot(data=mutate(diamonds,volume = x*y*z),aes(x=volume,y=price)) +
-  geom_point() + xlim(c(0,1000)) +
+  geom_point(alpha=0.03) + xlim(c(0,1000)) +
   xlab("Volume (x*y*z)") + ylab("Price") + theme_bw()
 
 #Diamond carat generally goes down as measures of 'quality' increase. Here's the problem.
@@ -117,7 +117,7 @@ ggplot(data=diamonds,aes(x=carat,y=price)) + geom_point() +
 grouped = diamonds %>% group_by(carat = ceiling(carat)) %>% summarise(price = mean(price))
 
 ggplot(data=diamonds,aes(x=carat,y=price,color=floor(carat))) +
-  geom_point(data=diamonds) +
+  geom_point(data=diamonds,alpha=0.08) +
   #geom_line(data=grouped,aes(x=carat-.5,y=price),color="yellow") +
   xlab("Carat") + ylab("Price") + ggtitle("Price by Carat") +
   theme_bw() +
@@ -152,7 +152,7 @@ ggplot(data=diamonds,aes(x=price)) +
 
 
 #Visualize a combined distribution of cut, carat, and price.
-ggplot(data=diamonds,aes(x=carat,y=price)) + geom_point() + facet_wrap(facets = ~cut) +
+ggplot(data=diamonds,aes(x=carat,y=price)) + geom_point(alpha=0.08) + facet_wrap(facets = ~cut) +
   xlab("Carat") + ylab("Price") + ggtitle("Carat vs Price by Cut Quality") +
   theme_bw()
 
