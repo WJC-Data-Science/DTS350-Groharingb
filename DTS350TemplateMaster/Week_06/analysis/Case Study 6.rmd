@@ -36,7 +36,7 @@ ggplot(data=diamonds,aes(x=price)) +
   theme_bw()
 
 ggplot(data=mutate(diamonds,volume = x*y*z),aes(x=volume,y=price)) +
-  geom_point() + xlim(c(0,1000)) + ggtitle ("Diamond Price by Volume") +
+  geom_point(alpha=0.03) + xlim(c(0,1000)) + ggtitle ("Diamond Price by Volume") +
   xlab("Volume (length x*y*z)") + ylab("Price") + theme_bw()
 
 ```
@@ -47,11 +47,11 @@ ggplot(data=mutate(diamonds,volume = x*y*z),aes(x=volume,y=price)) +
 You might expect that prices should be determined to some extent by the quality of the individual diamond. Oddly enough, prices actually go down as you improve eiher the cut or quality of the diamond:
 
 ```{r, echo=FALSE}
-ggplot(data=diamonds,aes(x=color,y=price)) + geom_boxplot() +
+ggplot(data=diamonds,aes(x=color,y=price)) + geom_boxplot(outlier.alpha=0.03) +
 ggtitle("Diamond Price by Color Rating") + xlab("Color Rating\nFrom D (best) to J (worst)") +
 ylab("Price") + theme_bw() 
 
-ggplot(data=diamonds,aes(x=cut,y=price)) + geom_boxplot() +
+ggplot(data=diamonds,aes(x=cut,y=price)) + geom_boxplot(outlier.alpha=0.03) +
   ggtitle("Diamond Price by Cut") + xlab("Cut Rating") +
   ylab("Price") + theme_bw() 
 ```
@@ -61,12 +61,12 @@ As it turns out, this apparent discrepancy is likely due to the fact that diamon
 
 
 ```{r, echo=FALSE}
-ggplot(data=diamonds,aes(x=color,y=carat)) + geom_boxplot() +
+ggplot(data=diamonds,aes(x=color,y=carat)) + geom_boxplot(outlier.alpha=0.03) +
   ggtitle("Diamond Carat by Color Rating") + xlab("Color Rating\nFrom D (best) to J (worst)") +
   ylab("Weight, Carat") +
   theme_bw()
 
-ggplot(data=diamonds,aes(x=cut,y=carat)) + geom_boxplot() +
+ggplot(data=diamonds,aes(x=cut,y=carat)) + geom_boxplot(outlier.alpha=0.03) +
   ggtitle("Diamond Carat by Cut Quality") + xlab("Cut Rating") +
   ylab("Weight, Carat") +
   theme_bw()
