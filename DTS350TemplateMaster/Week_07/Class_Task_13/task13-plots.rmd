@@ -1,0 +1,120 @@
+---
+title: "task13-plots.rmd"
+author: "Brooks Groharing"
+date: "10/8/2020"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readr)
+library(haven) #rds/dta files
+library(readxl)
+library(downloader)
+library(dplyr)
+```
+
+### Initial plotting
+
+```{r include=FALSE}
+df_rds = read_rds(url("https://github.com/WJC-Data-Science/DTS350/raw/master/Dart_Expert_Dow_6month_anova/Dart_Expert_Dow_6month_anova.RDS"))
+
+averages = df_rds %>% group_by(variable) %>% summarise(value = mean(value))
+
+#Coercing knitr into including special unicode characters in a graph
+bar_x = knitr::asis_output("x\U0305")
+subtitle = paste(knitr::asis_output("\U2666") %>% 
+                   paste(" - Averages ( ",sep="") ,bar_x,sep="") %>%
+                    paste(" )",sep="")
+
+#Graphing
+returns_by_stock = ggplot(data=df_rds) + 
+  geom_boxplot(aes(x=variable,y=value,fill=variable),alpha=0.3,outlier.alpha=1) +
+  geom_jitter(aes(x=variable,y=value),alpha=0.1) +
+  geom_point(data=averages,aes(x=variable,y=value),color="#5555FF",size=4,shape=18) +
+  xlab("\n") +
+  ylab("6 Month Returns") +
+  ggtitle("6 Month Returns by Stock Selection",subtitle) +
+  geom_text(data=head(averages,1),aes(x=.8,y=-61,label="Stock"),size=3.5,hjust=1) +
+  geom_text(data=head(averages,1),aes(x=.8,y=-67,label=bar_x),size=3.5,hjust=1) +
+  geom_text(data=averages,aes(x=variable,y=-67,label=value),color="#5555FF") +
+  coord_cartesian(ylim=c(-50,75),clip='off') +
+  theme_bw() +
+  theme(
+    legend.position = "none",
+    plot.subtitle = element_text(color="#5555FF"),
+    plot.margin = unit(c(.1,.1,.2,.1),"lines")
+  )
+```
+```{r,echo=FALSE,warning=FALSE,echo=FALSE,message=FALSE}
+returns_by_stock
+```
+
+This graphic plots the distribution of six-month return values in the raw dataset, faceted by stock. The quartiles and outliers for each stock are represented as boxplots, while the underlying datapoints are plotted in the background with a random horizontal jitter. Blue diamonds indicate the mean return for each stock over the 9 year period.
+
+### Tidying the dataset
+
+In the initial dataset, date ranges are condensed into a single string per row.
+
+```{r}
+head(df_rds)
+```
+
+To divide this into multiple columns, we can use tidyr's separate() function:
+
+```{r}
+df_tidy = df_rds %>% 
+  separate(contest_period,into=c("month_start","end"),sep="-") %>%
+  separate(end,into=c("month_end","year_end"),sep=-4)
+
+df_tidy
+```
+
+This format is easier to manipulate in r, and allows for graphing the data over time.
+
+### Plotting the Tidied Data
+
+```{r include=FALSE}
+returns_yearly = ggplot() + #geom_line(data=yearly_averages,aes(x=year_end,y=value,group=1),size=1) + 
+  geom_boxplot(data=df_tidy,aes(x=year_end,y=value,fill=variable),alpha=0.3) + #,alpha=0.7,fill="#E6E6E6",color="#777777") +
+  facet_wrap(~variable,ncol=1) +
+  ylab("6 Month Return") + xlab("Collection Year") + ggtitle("Six Month Returns by Year of Collection") +
+  theme_bw() +
+  theme(legend.position = 'none')
+```
+```{r,echo=FALSE}
+returns_yearly
+```
+
+This plot breaks down the distribution of six-month returns by their year of collection (That means, for example, that the return for August 1990 through January 1991 is included in the the 1991 distribution.) Again, this is made possible by pulling out the individual variables within the original contest_period string.
+
+### Generating a 'Spread' Table
+Finally, tidyr's pivot_wider() function can be used to 'spread' a tided dataset back out. This format is less useful in code, but has the potential to be more compact/human readable:
+```{r}
+DJIA = df_tidy %>% 
+  filter(variable=="DJIA") %>%
+  select(month_end,year_end,variable,value) %>%
+  pivot_wider(names_from=year_end,values_from=value) %>%
+  head(12) #maybe a clunky solution...
+
+DJIA$month_end = factor(DJIA$month_end,
+                levels=c(
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"))
+
+DJIA = DJIA %>% arrange(DJIA,month_end)
+
+knitr::kable(select(DJIA,Month=month_end,'1990':'1998'))
+```
