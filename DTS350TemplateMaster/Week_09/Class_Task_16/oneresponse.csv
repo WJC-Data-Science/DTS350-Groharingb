@@ -1,0 +1,937 @@
+respondentid,age,gender,income,education,location_census,seen_any6,fan_yn,fan_expanded,fan_startrek,shot_first
+3292879998,18-29,Male,NA,High school degree,South Atlantic,Yes,Yes,No,No,I don't understand this question
+3292765271,18-29,Male,"$0 - $24,999",High school degree,West North Central,Yes,No,NA,No,I don't understand this question
+3292763116,18-29,Male,"$100,000 - $149,999",Some college or Associate degree,West North Central,Yes,Yes,NA,Yes,I don't understand this question
+3292731220,18-29,Male,"$100,000 - $149,999",Some college or Associate degree,West North Central,Yes,Yes,No,No,Greedo
+3292719380,18-29,Male,"$25,000 - $49,999",Bachelor degree,Middle Atlantic,Yes,Yes,No,Yes,Han
+3292684787,18-29,Male,NA,High school degree,East North Central,Yes,Yes,No,No,Han
+3292663732,18-29,Male,NA,High school degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3292654043,18-29,Male,"$0 - $24,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,No,Han
+3292640424,18-29,Male,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3292637870,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3292609214,18-29,Male,"$25,000 - $49,999",Bachelor degree,South Atlantic,Yes,No,NA,No,Greedo
+3292596911,30-44,Male,"$50,000 - $99,999",Graduate degree,Mountain,Yes,Yes,NA,No,I don't understand this question
+3292587240,18-29,Male,NA,High school degree,East North Central,Yes,Yes,NA,No,Han
+3292583038,18-29,Male,"$0 - $24,999",Some college or Associate degree,West South Central,Yes,Yes,Yes,Yes,Han
+3292580516,18-29,Male,"$50,000 - $99,999",Bachelor degree,New England,Yes,Yes,Yes,No,Han
+3292572872,18-29,Male,NA,Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,No,Greedo
+3292565282,18-29,Male,NA,High school degree,South Atlantic,Yes,Yes,NA,No,Han
+3292562297,18-29,Male,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,Yes,NA,Yes,Greedo
+3292522349,18-29,Male,NA,Some college or Associate degree,Pacific,Yes,Yes,NA,No,Han
+3292521066,18-29,Male,NA,Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3292511801,18-29,Male,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,Yes,Yes,Yes,Greedo
+3292483200,18-29,Male,"$0 - $24,999",Bachelor degree,Pacific,Yes,Yes,NA,No,Han
+3292465491,18-29,Male,NA,NA,East North Central,Yes,Yes,NA,No,Han
+3292420123,18-29,Male,"$100,000 - $149,999",Some college or Associate degree,South Atlantic,Yes,Yes,No,No,Greedo
+3292384040,18-29,Male,NA,Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,No,Greedo
+3292380493,18-29,Male,NA,Some college or Associate degree,Middle Atlantic,Yes,Yes,No,No,Han
+3292376985,18-29,Male,"$150,000+",Some college or Associate degree,East North Central,Yes,Yes,Yes,Yes,Han
+3292366792,30-44,Male,"$0 - $24,999",High school degree,New England,Yes,No,NA,No,I don't understand this question
+3292339379,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,Yes,Yes,Yes,Han
+3292330840,18-29,Male,NA,NA,Middle Atlantic,Yes,No,NA,No,Han
+3292318652,18-29,Male,"$50,000 - $99,999",High school degree,Mountain,Yes,No,NA,No,Han
+3292290677,30-44,Male,"$150,000+",Graduate degree,East North Central,Yes,Yes,NA,No,Han
+3292281095,18-29,Male,"$0 - $24,999",Bachelor degree,West North Central,Yes,Yes,NA,No,Greedo
+3292279889,18-29,Male,NA,Some college or Associate degree,Pacific,Yes,Yes,NA,No,Han
+3292264069,30-44,Male,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,Yes,No,Yes,Han
+3292257520,30-44,Male,"$0 - $24,999",High school degree,West North Central,Yes,Yes,Yes,Yes,Greedo
+3292249492,30-44,Male,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3292222729,30-44,Male,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,Yes,No,Han
+3292221635,18-29,Male,"$25,000 - $49,999",Bachelor degree,West North Central,Yes,Yes,Yes,No,Greedo
+3292218251,18-29,Male,"$150,000+",Bachelor degree,Pacific,Yes,Yes,Yes,Yes,Han
+3292214307,18-29,Male,"$25,000 - $49,999",High school degree,New England,Yes,Yes,No,No,Han
+3292210606,18-29,Male,NA,Some college or Associate degree,West North Central,Yes,Yes,NA,No,Han
+3292189580,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,Yes,Yes,Yes,Han
+3292187343,18-29,Male,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,No,NA,No,Greedo
+3292178389,18-29,Male,"$50,000 - $99,999",Bachelor degree,Mountain,Yes,Yes,NA,Yes,Greedo
+3292176862,18-29,Male,NA,High school degree,South Atlantic,Yes,Yes,No,No,Han
+3292173922,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3292167131,18-29,Male,"$25,000 - $49,999",High school degree,New England,Yes,Yes,No,No,Han
+3292162057,18-29,Male,"$100,000 - $149,999",Some college or Associate degree,Mountain,Yes,Yes,NA,No,Greedo
+3292156614,18-29,Male,"$150,000+",Bachelor degree,West South Central,Yes,Yes,NA,No,Han
+3292148570,18-29,Male,"$50,000 - $99,999",Graduate degree,West North Central,Yes,Yes,NA,Yes,Han
+3292144665,18-29,Male,"$0 - $24,999",High school degree,New England,Yes,Yes,Yes,No,Han
+3292143503,18-29,Male,"$50,000 - $99,999",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3292131636,18-29,Male,"$150,000+",Bachelor degree,Pacific,Yes,Yes,No,No,Greedo
+3292125068,30-44,Male,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3292120160,18-29,Male,"$100,000 - $149,999",Some college or Associate degree,New England,Yes,Yes,Yes,No,Han
+3292103680,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,NA,No,Greedo
+3292050153,18-29,Male,"$0 - $24,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3292041365,18-29,Male,"$150,000+",Some college or Associate degree,East South Central,Yes,Yes,Yes,Yes,Han
+3292033243,18-29,Male,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Yes,Yes,Yes,No,Greedo
+3292031637,18-29,Male,"$25,000 - $49,999",Graduate degree,East South Central,Yes,No,NA,No,I don't understand this question
+3292008762,18-29,Male,"$25,000 - $49,999",Some college or Associate degree,East South Central,Yes,Yes,Yes,Yes,Han
+3291992352,30-44,Male,"$100,000 - $149,999",Graduate degree,West North Central,Yes,Yes,NA,Yes,Greedo
+3291945498,30-44,Male,"$50,000 - $99,999",Graduate degree,West North Central,Yes,Yes,NA,Yes,Han
+3291940517,18-29,Male,"$100,000 - $149,999",Bachelor degree,West North Central,Yes,Yes,NA,Yes,Han
+3291871486,18-29,Male,"$100,000 - $149,999",Graduate degree,South Atlantic,Yes,Yes,No,Yes,Greedo
+3291778150,18-29,Male,"$25,000 - $49,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Greedo
+3291766314,30-44,Male,"$50,000 - $99,999",High school degree,Pacific,Yes,No,NA,No,I don't understand this question
+3291762799,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Greedo
+3291707153,30-44,Male,"$50,000 - $99,999",Bachelor degree,West South Central,Yes,No,NA,No,Greedo
+3291701619,18-29,Male,NA,Bachelor degree,New England,Yes,Yes,NA,Yes,Greedo
+3291696391,30-44,Male,"$100,000 - $149,999",Bachelor degree,West North Central,Yes,Yes,No,No,Han
+3291684768,30-44,Male,"$100,000 - $149,999",Graduate degree,East North Central,Yes,Yes,NA,No,Han
+3291669388,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3291661584,> 60,Male,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3291658046,30-44,Male,NA,Graduate degree,South Atlantic,Yes,Yes,NA,Yes,Greedo
+3291654919,> 60,Male,"$50,000 - $99,999",Graduate degree,East North Central,Yes,Yes,NA,Yes,Greedo
+3291650311,30-44,Male,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Han
+3291641416,> 60,Male,"$100,000 - $149,999",Graduate degree,East North Central,Yes,No,No,Yes,Greedo
+3291634205,30-44,Male,"$0 - $24,999",Bachelor degree,Pacific,Yes,No,NA,No,Han
+3291618031,18-29,Male,NA,Bachelor degree,Middle Atlantic,Yes,No,NA,No,Han
+3291602842,30-44,Male,"$50,000 - $99,999",High school degree,Pacific,Yes,Yes,No,No,Greedo
+3291598188,> 60,Male,"$50,000 - $99,999",High school degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3291588139,> 60,Male,"$50,000 - $99,999",Bachelor degree,West South Central,Yes,Yes,NA,Yes,Han
+3291570206,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3291548852,30-44,Male,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,Yes,NA,No,Greedo
+3291529925,30-44,Male,"$100,000 - $149,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,No,I don't understand this question
+3291524547,> 60,Male,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,No,NA,No,Greedo
+3291502449,> 60,Male,"$100,000 - $149,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3291497337,> 60,Male,"$150,000+",Bachelor degree,South Atlantic,Yes,Yes,Yes,Yes,Greedo
+3291482197,30-44,Male,"$25,000 - $49,999",Graduate degree,South Atlantic,Yes,Yes,NA,Yes,Greedo
+3291469991,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3291468155,> 60,Male,"$100,000 - $149,999",Some college or Associate degree,Pacific,Yes,No,NA,Yes,Greedo
+3291461574,30-44,Male,NA,Bachelor degree,East North Central,Yes,Yes,NA,Yes,Han
+3291455642,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3291446474,30-44,Male,"$50,000 - $99,999",High school degree,East North Central,Yes,No,NA,No,I don't understand this question
+3291446275,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3291439708,> 60,Female,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,Yes,No,Yes,Greedo
+3291439404,> 60,Female,"$25,000 - $49,999",Graduate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3291437345,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,No,NA,No,Han
+3291435787,30-44,Female,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3291433636,30-44,Female,"$25,000 - $49,999",Bachelor degree,West South Central,Yes,No,NA,No,I don't understand this question
+3291431939,30-44,Female,"$25,000 - $49,999",Graduate degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3291428174,30-44,Female,"$50,000 - $99,999",Some college or Associate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3291425110,30-44,Female,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,Yes,No,Yes,Han
+3291424127,> 60,Female,"$25,000 - $49,999",Bachelor degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3291422637,> 60,Female,"$25,000 - $49,999",Graduate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3291420030,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3291405943,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3291401326,> 60,Male,"$25,000 - $49,999",High school degree,Middle Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3291395512,30-44,Female,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,Yes,No,No,I don't understand this question
+3291394022,45-60,Male,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Yes,No,NA,Yes,Han
+3291391446,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Han
+3291388180,> 60,Female,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3291380973,> 60,Female,"$25,000 - $49,999",Bachelor degree,Middle Atlantic,Yes,No,NA,Yes,I don't understand this question
+3291378572,> 60,Female,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3291375306,30-44,Female,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3291364062,45-60,Male,NA,Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3291345427,> 60,Female,"$100,000 - $149,999",Graduate degree,East North Central,Yes,Yes,NA,No,Greedo
+3291341186,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3291330710,30-44,Male,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,No,NA,No,Greedo
+3291327304,30-44,Female,"$100,000 - $149,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3291320154,30-44,Male,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3291312980,18-29,Female,"$0 - $24,999",High school degree,West North Central,Yes,No,NA,No,Han
+3291288174,> 60,Female,"$50,000 - $99,999",Bachelor degree,West North Central,Yes,Yes,NA,Yes,Han
+3291271932,30-44,Female,"$50,000 - $99,999",Bachelor degree,West North Central,Yes,No,NA,No,Han
+3291267852,45-60,Male,"$100,000 - $149,999",Bachelor degree,Middle Atlantic,Yes,No,NA,Yes,I don't understand this question
+3291262515,30-44,Female,"$50,000 - $99,999",Bachelor degree,West South Central,Yes,No,NA,No,I don't understand this question
+3291233218,30-44,Female,NA,Some college or Associate degree,Pacific,Yes,Yes,No,Yes,Greedo
+3291206864,18-29,Female,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,No,NA,No,Greedo
+3291184745,30-44,Female,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,Yes,NA,No,Greedo
+3291181010,30-44,Male,"$0 - $24,999",Graduate degree,Pacific,Yes,No,NA,No,Han
+3291159863,45-60,Female,NA,Bachelor degree,Pacific,Yes,No,NA,Yes,I don't understand this question
+3291145258,18-29,Female,NA,High school degree,Pacific,Yes,No,NA,No,I don't understand this question
+3291141478,> 60,Female,"$150,000+",Graduate degree,Pacific,Yes,Yes,Yes,Yes,Han
+3291139156,45-60,Female,NA,Bachelor degree,West North Central,Yes,Yes,NA,Yes,I don't understand this question
+3291121359,45-60,Male,"$25,000 - $49,999",Bachelor degree,South Atlantic,Yes,No,No,Yes,Greedo
+3291119656,30-44,Male,"$25,000 - $49,999",High school degree,Mountain,Yes,No,NA,No,Han
+3291101925,18-29,Female,"$0 - $24,999",Bachelor degree,Mountain,Yes,No,No,No,Han
+3291094347,30-44,Female,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,No,NA,Yes,I don't understand this question
+3291092094,45-60,Female,"$25,000 - $49,999",High school degree,East North Central,Yes,No,NA,No,Han
+3291077381,45-60,Male,"$150,000+",Graduate degree,Mountain,Yes,No,NA,Yes,Han
+3291075212,30-44,Male,"$100,000 - $149,999",Some college or Associate degree,East South Central,Yes,Yes,No,Yes,Han
+3291063226,18-29,Female,"$150,000+",Bachelor degree,Pacific,Yes,Yes,NA,No,Greedo
+3291060156,30-44,Female,"$0 - $24,999",Bachelor degree,Mountain,Yes,Yes,NA,No,Greedo
+3291056296,18-29,Female,"$25,000 - $49,999",Some college or Associate degree,West North Central,Yes,Yes,Yes,No,Han
+3291052728,45-60,Male,"$50,000 - $99,999",Graduate degree,West South Central,Yes,Yes,No,Yes,Han
+3291051343,45-60,Male,"$0 - $24,999",High school degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3291045360,45-60,Male,NA,Graduate degree,East South Central,Yes,Yes,NA,Yes,Greedo
+3291043176,30-44,Male,NA,Some college or Associate degree,Pacific,Yes,No,NA,No,Greedo
+3291042516,45-60,Female,"$100,000 - $149,999",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3291037640,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3291034202,30-44,Male,"$150,000+",Bachelor degree,Middle Atlantic,Yes,Yes,NA,No,Han
+3291032418,45-60,Female,"$50,000 - $99,999",High school degree,East North Central,Yes,No,NA,No,Han
+3291028446,30-44,Male,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,Yes,Yes,No,Han
+3291024297,> 60,Male,"$0 - $24,999",Graduate degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3291023456,18-29,Female,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,Yes,Yes,Yes,Han
+3291022655,> 60,Female,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3291022013,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3291019033,30-44,Female,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,Yes,NA,Yes,Greedo
+3291014757,> 60,Female,"$100,000 - $149,999",Graduate degree,Mountain,Yes,Yes,NA,No,I don't understand this question
+3291007877,45-60,Male,"$100,000 - $149,999",Bachelor degree,Middle Atlantic,Yes,Yes,Yes,Yes,Han
+3291006540,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3291002672,45-60,Male,"$150,000+",Some college or Associate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290999912,45-60,Female,"$0 - $24,999",Bachelor degree,West South Central,Yes,No,NA,Yes,I don't understand this question
+3290996933,18-29,Male,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,Yes,No,Han
+3290994001,18-29,Male,"$0 - $24,999",High school degree,Middle Atlantic,Yes,No,No,No,Greedo
+3290992477,18-29,Female,"$25,000 - $49,999",Bachelor degree,East North Central,Yes,Yes,NA,Yes,Han
+3290987996,30-44,Male,"$0 - $24,999",Graduate degree,Mountain,Yes,Yes,No,Yes,Greedo
+3290984063,45-60,Male,NA,Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290980789,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290977827,18-29,Male,NA,Some college or Associate degree,Pacific,Yes,No,NA,No,Greedo
+3290976539,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290975724,> 60,Male,"$50,000 - $99,999",High school degree,Mountain,Yes,Yes,NA,Yes,Han
+3290973695,18-29,Female,NA,Some college or Associate degree,Middle Atlantic,Yes,Yes,No,Yes,Han
+3290972257,30-44,Male,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,NA,Yes,Han
+3290971794,45-60,Female,NA,Graduate degree,East South Central,Yes,Yes,NA,Yes,Greedo
+3290971358,30-44,Female,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,NA,No,Greedo
+3290961497,18-29,Male,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,Yes,NA,No,Greedo
+3290949606,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290948002,> 60,Female,"$0 - $24,999",Graduate degree,South Atlantic,Yes,No,No,No,I don't understand this question
+3290947136,45-60,Female,"$25,000 - $49,999",Some college or Associate degree,West North Central,Yes,No,NA,Yes,Greedo
+3290947011,18-29,Male,"$100,000 - $149,999",High school degree,Middle Atlantic,Yes,No,NA,Yes,Han
+3290944858,30-44,Male,"$100,000 - $149,999",Some college or Associate degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3290944288,45-60,Male,NA,Bachelor degree,West North Central,Yes,Yes,No,No,Greedo
+3290941824,NA,NA,NA,NA,NA,Yes,Yes,NA,No,Greedo
+3290939696,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290934328,45-60,Male,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,No,NA,No,Han
+3290929229,30-44,Male,"$50,000 - $99,999",Graduate degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3290922858,> 60,Male,"$50,000 - $99,999",High school degree,Middle Atlantic,Yes,No,No,No,I don't understand this question
+3290920752,> 60,Female,"$0 - $24,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290919823,30-44,Female,NA,Graduate degree,West South Central,Yes,Yes,NA,Yes,Han
+3290919419,45-60,Male,NA,Bachelor degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3290917153,30-44,Male,"$150,000+",Graduate degree,East North Central,Yes,Yes,NA,No,Greedo
+3290917131,NA,NA,NA,NA,NA,Yes,Yes,NA,NA,NA
+3290916554,18-29,Female,NA,Some college or Associate degree,Mountain,Yes,Yes,Yes,Yes,Han
+3290915885,45-60,Male,NA,Some college or Associate degree,Pacific,Yes,Yes,Yes,Yes,Han
+3290912485,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290912014,45-60,Female,"$50,000 - $99,999",Some college or Associate degree,East North Central,Yes,No,NA,No,Han
+3290910069,45-60,Male,NA,Some college or Associate degree,New England,Yes,Yes,NA,Yes,Han
+3290906086,45-60,Female,NA,Graduate degree,East North Central,Yes,Yes,NA,No,I don't understand this question
+3290906022,45-60,Male,"$100,000 - $149,999",Some college or Associate degree,Mountain,Yes,No,NA,No,I don't understand this question
+3290903423,45-60,Female,"$50,000 - $99,999",Graduate degree,Mountain,Yes,No,NA,No,I don't understand this question
+3290902880,45-60,Female,"$150,000+",Graduate degree,South Atlantic,Yes,Yes,NA,No,Han
+3290901027,45-60,Male,"$0 - $24,999",Graduate degree,East North Central,Yes,Yes,NA,Yes,I don't understand this question
+3290896982,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290889443,18-29,Female,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,No,NA,No,Han
+3290888715,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290888303,18-29,Male,NA,High school degree,East North Central,Yes,Yes,NA,Yes,Han
+3290888102,45-60,Female,"$25,000 - $49,999",Graduate degree,Mountain,Yes,No,NA,No,I don't understand this question
+3290888079,> 60,Female,NA,Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3290884427,45-60,Male,NA,Bachelor degree,Pacific,Yes,Yes,No,Yes,Greedo
+3290881566,> 60,Female,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,NA,No,Han
+3290879019,45-60,Female,"$25,000 - $49,999",Graduate degree,East South Central,Yes,Yes,NA,Yes,Han
+3290878766,45-60,Male,"$150,000+",Bachelor degree,South Atlantic,Yes,Yes,Yes,Yes,Han
+3290873342,30-44,Male,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,Yes,Yes,No,Han
+3290871307,45-60,Male,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,NA,Yes,Han
+3290863729,18-29,Female,"$100,000 - $149,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Han
+3290863193,45-60,Male,NA,Bachelor degree,South Atlantic,Yes,Yes,No,Yes,Han
+3290862050,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290860908,45-60,Male,"$0 - $24,999",Graduate degree,Mountain,Yes,Yes,No,Yes,Greedo
+3290860842,> 60,Male,NA,Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290860558,30-44,Male,NA,Bachelor degree,New England,Yes,Yes,NA,No,Han
+3290858689,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290858543,45-60,Male,"$150,000+",Graduate degree,New England,Yes,Yes,No,Yes,I don't understand this question
+3290855818,45-60,Male,NA,High school degree,East North Central,Yes,Yes,Yes,Yes,Han
+3290854802,30-44,Male,"$0 - $24,999",High school degree,Pacific,Yes,Yes,Yes,No,Han
+3290853559,45-60,Male,"$25,000 - $49,999",Some college or Associate degree,East South Central,Yes,No,NA,Yes,Han
+3290853267,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290848617,45-60,Male,"$100,000 - $149,999",Bachelor degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3290846848,> 60,Male,"$100,000 - $149,999",Some college or Associate degree,East North Central,Yes,Yes,NA,No,Han
+3290846769,18-29,Female,NA,Bachelor degree,New England,Yes,No,NA,No,I don't understand this question
+3290846466,45-60,Male,"$25,000 - $49,999",Bachelor degree,South Atlantic,Yes,Yes,NA,Yes,Greedo
+3290845752,30-44,Male,"$50,000 - $99,999",Bachelor degree,Mountain,Yes,Yes,NA,No,Han
+3290845367,30-44,Male,"$0 - $24,999",High school degree,South Atlantic,Yes,Yes,No,Yes,I don't understand this question
+3290845046,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,West North Central,Yes,Yes,NA,Yes,Han
+3290841815,30-44,Female,"$50,000 - $99,999",Bachelor degree,East South Central,Yes,No,NA,No,I don't understand this question
+3290836653,18-29,Female,"$50,000 - $99,999",Bachelor degree,West South Central,Yes,No,NA,No,Greedo
+3290834007,NA,NA,NA,NA,NA,Yes,No,NA,Yes,I don't understand this question
+3290829888,45-60,Male,"$100,000 - $149,999",Bachelor degree,South Atlantic,Yes,No,NA,Yes,I don't understand this question
+3290821620,45-60,Female,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290819415,30-44,Male,"$0 - $24,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290812610,45-60,Female,"$50,000 - $99,999",Graduate degree,West North Central,Yes,No,NA,No,Greedo
+3290810177,30-44,Female,"$50,000 - $99,999",Graduate degree,East South Central,Yes,Yes,NA,Yes,Han
+3290810023,18-29,Female,"$0 - $24,999",Graduate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290806200,NA,NA,NA,NA,NA,Yes,Yes,NA,NA,NA
+3290805125,45-60,Male,"$150,000+",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290804128,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290804008,45-60,Male,NA,Bachelor degree,Mountain,Yes,Yes,No,Yes,Han
+3290799403,45-60,Male,"$0 - $24,999",Some college or Associate degree,Middle Atlantic,Yes,No,No,Yes,I don't understand this question
+3290798064,45-60,Male,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3290796650,45-60,Female,NA,Bachelor degree,West North Central,Yes,Yes,NA,Yes,I don't understand this question
+3290792507,18-29,Male,"$25,000 - $49,999",Bachelor degree,Pacific,Yes,Yes,NA,Yes,Han
+3290787286,18-29,Female,NA,Less than high school degree,Pacific,Yes,Yes,NA,No,Han
+3290785928,18-29,Male,"$0 - $24,999",Bachelor degree,Pacific,Yes,Yes,NA,No,Han
+3290781544,30-44,Male,"$100,000 - $149,999",Bachelor degree,West North Central,Yes,Yes,NA,Yes,Han
+3290781284,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290781039,> 60,Male,"$100,000 - $149,999",Bachelor degree,West South Central,Yes,Yes,NA,Yes,Greedo
+3290779524,45-60,Female,"$25,000 - $49,999",Bachelor degree,West South Central,Yes,Yes,NA,Yes,Greedo
+3290779140,30-44,Female,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Yes,No,NA,No,Han
+3290778828,> 60,Female,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290777129,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290773277,30-44,Male,"$150,000+",Bachelor degree,South Atlantic,Yes,Yes,Yes,Yes,Greedo
+3290767951,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290767535,45-60,Male,"$150,000+",Graduate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290762924,45-60,Female,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,No,NA,No,I don't understand this question
+3290760722,45-60,Female,NA,Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,I don't understand this question
+3290759512,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,East South Central,Yes,Yes,NA,Yes,I don't understand this question
+3290758362,18-29,Male,NA,Some college or Associate degree,Middle Atlantic,Yes,Yes,No,No,Han
+3290757230,18-29,Female,"$25,000 - $49,999",High school degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290756394,45-60,Female,"$25,000 - $49,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,No,Han
+3290755451,> 60,Female,"$50,000 - $99,999",Bachelor degree,West North Central,Yes,Yes,NA,Yes,I don't understand this question
+3290753390,45-60,Male,"$0 - $24,999",Some college or Associate degree,New England,Yes,No,Yes,Yes,Han
+3290749764,45-60,Male,"$150,000+",Graduate degree,Middle Atlantic,Yes,Yes,Yes,Yes,Han
+3290749229,45-60,Male,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290746853,45-60,Female,"$0 - $24,999",Bachelor degree,South Atlantic,Yes,No,Yes,Yes,Han
+3290744027,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290741994,30-44,Male,NA,Some college or Associate degree,Mountain,Yes,Yes,Yes,Yes,Greedo
+3290741405,45-60,Female,"$100,000 - $149,999",Bachelor degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3290740448,45-60,Female,"$150,000+",Bachelor degree,Mountain,Yes,Yes,NA,Yes,I don't understand this question
+3290739967,45-60,Female,NA,High school degree,West North Central,Yes,Yes,No,No,Han
+3290739235,45-60,Female,"$150,000+",Bachelor degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290736072,45-60,Male,"$150,000+",Bachelor degree,Pacific,Yes,Yes,Yes,No,Greedo
+3290734874,18-29,Male,"$25,000 - $49,999",Bachelor degree,West South Central,Yes,Yes,NA,No,Han
+3290733932,45-60,Male,"$25,000 - $49,999",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290733316,45-60,Female,"$25,000 - $49,999",Bachelor degree,East North Central,Yes,Yes,NA,Yes,Han
+3290732383,30-44,Male,"$50,000 - $99,999",High school degree,Mountain,Yes,Yes,NA,No,Greedo
+3290727763,30-44,Male,"$100,000 - $149,999",Graduate degree,East North Central,Yes,Yes,NA,No,Han
+3290726075,> 60,Female,"$50,000 - $99,999",Some college or Associate degree,New England,Yes,Yes,NA,Yes,Greedo
+3290719847,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290718359,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290717899,45-60,Male,"$150,000+",Bachelor degree,East North Central,Yes,Yes,NA,Yes,Greedo
+3290714941,30-44,Male,"$0 - $24,999",High school degree,West South Central,Yes,No,NA,No,Han
+3290714484,45-60,Male,"$100,000 - $149,999",Bachelor degree,West North Central,Yes,Yes,No,Yes,I don't understand this question
+3290714378,> 60,Female,"$50,000 - $99,999",Graduate degree,Mountain,Yes,Yes,NA,Yes,I don't understand this question
+3290712204,45-60,Male,"$100,000 - $149,999",High school degree,East North Central,Yes,No,NA,No,Greedo
+3290711882,18-29,Female,NA,Some college or Associate degree,South Atlantic,Yes,No,NA,Yes,Han
+3290711487,30-44,Male,"$100,000 - $149,999",Bachelor degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290711262,45-60,Female,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,No,No,No,I don't understand this question
+3290708664,> 60,Female,"$0 - $24,999",Bachelor degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290706716,> 60,Male,"$100,000 - $149,999",Bachelor degree,West South Central,Yes,No,NA,No,I don't understand this question
+3290706611,18-29,Female,"$25,000 - $49,999",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290703210,30-44,Male,"$25,000 - $49,999",Bachelor degree,Mountain,Yes,No,NA,No,Han
+3290701442,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290700285,NA,NA,NA,NA,NA,Yes,Yes,NA,NA,NA
+3290700214,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,Mountain,Yes,No,NA,No,I don't understand this question
+3290700030,30-44,Male,"$0 - $24,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3290699410,45-60,Female,NA,Bachelor degree,Pacific,Yes,Yes,NA,No,I don't understand this question
+3290695784,45-60,Female,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3290695316,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290693095,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290691758,18-29,Male,"$0 - $24,999",Graduate degree,West South Central,Yes,Yes,No,No,I don't understand this question
+3290689343,45-60,Male,"$50,000 - $99,999",High school degree,East North Central,Yes,No,NA,No,Greedo
+3290687981,NA,NA,NA,NA,NA,Yes,Yes,NA,NA,NA
+3290687830,30-44,Male,"$100,000 - $149,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3290685885,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290684868,30-44,Male,"$50,000 - $99,999",Graduate degree,Mountain,Yes,No,NA,No,Han
+3290684287,45-60,Female,"$100,000 - $149,999",Graduate degree,East North Central,Yes,Yes,NA,No,I don't understand this question
+3290681574,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290678952,30-44,Male,"$100,000 - $149,999",Graduate degree,West South Central,Yes,No,NA,No,I don't understand this question
+3290678515,45-60,Female,"$50,000 - $99,999",Graduate degree,East North Central,Yes,Yes,NA,Yes,Han
+3290676695,45-60,Male,"$25,000 - $49,999",Some college or Associate degree,Mountain,Yes,Yes,No,No,I don't understand this question
+3290667297,> 60,Male,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,No,NA,No,I don't understand this question
+3290664543,18-29,Female,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290664463,45-60,Male,"$50,000 - $99,999",Bachelor degree,East South Central,Yes,Yes,No,Yes,Greedo
+3290664069,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290662118,30-44,Male,"$150,000+",Graduate degree,East North Central,Yes,Yes,Yes,No,Han
+3290661650,18-29,Male,"$150,000+",Bachelor degree,Middle Atlantic,Yes,Yes,No,Yes,Han
+3290661587,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290661135,30-44,Male,"$50,000 - $99,999",Bachelor degree,Mountain,Yes,Yes,No,No,Greedo
+3290659818,30-44,Male,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,Yes,Yes,Yes,Han
+3290659314,30-44,Male,"$0 - $24,999",Graduate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3290655784,45-60,Male,"$100,000 - $149,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290654597,45-60,Male,NA,Graduate degree,East North Central,Yes,Yes,NA,Yes,Han
+3290651085,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290650590,18-29,Female,NA,Bachelor degree,Middle Atlantic,Yes,Yes,NA,No,Greedo
+3290644326,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290640323,30-44,Male,"$0 - $24,999",Bachelor degree,Pacific,Yes,No,NA,No,Greedo
+3290638529,45-60,Male,"$25,000 - $49,999",Bachelor degree,East North Central,Yes,No,NA,No,Han
+3290634681,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290631608,45-60,Female,NA,NA,West South Central,Yes,No,No,No,Greedo
+3290630470,> 60,Female,"$150,000+",Graduate degree,East South Central,Yes,No,NA,No,Greedo
+3290630282,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,Mountain,Yes,Yes,NA,No,Greedo
+3290628419,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290627850,45-60,Male,"$100,000 - $149,999",Bachelor degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3290627681,45-60,Male,"$100,000 - $149,999",Graduate degree,East North Central,Yes,Yes,NA,Yes,Han
+3290625814,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290624447,45-60,Male,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,No,Yes,Han
+3290620991,45-60,Male,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Greedo
+3290617461,45-60,Male,"$150,000+",Graduate degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3290611875,45-60,Male,"$100,000 - $149,999",Bachelor degree,South Atlantic,Yes,Yes,No,Yes,Han
+3290611716,45-60,Male,"$100,000 - $149,999",Bachelor degree,West North Central,Yes,No,NA,No,Han
+3290602490,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290601892,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,New England,Yes,Yes,NA,No,Han
+3290600680,45-60,Female,"$150,000+",Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3290600559,> 60,Female,NA,High school degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3290600057,30-44,Female,"$25,000 - $49,999",Graduate degree,West South Central,Yes,Yes,NA,Yes,Greedo
+3290598307,45-60,Female,"$100,000 - $149,999",Some college or Associate degree,East South Central,Yes,No,NA,No,I don't understand this question
+3290597099,30-44,Female,"$100,000 - $149,999",Bachelor degree,East North Central,Yes,Yes,Yes,No,Han
+3290593953,30-44,Male,"$50,000 - $99,999",Bachelor degree,Pacific,Yes,Yes,No,Yes,Han
+3290582716,45-60,Female,"$100,000 - $149,999",Graduate degree,South Atlantic,Yes,No,NA,Yes,I don't understand this question
+3290572568,45-60,Male,"$25,000 - $49,999",High school degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290572073,30-44,Male,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,Yes,No,Yes,Han
+3290569001,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3290568339,18-29,Male,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3290565779,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,Yes,NA,No,Greedo
+3290565768,18-29,Male,"$0 - $24,999",High school degree,New England,Yes,Yes,Yes,No,Han
+3290565487,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290561583,45-60,Male,"$150,000+",Graduate degree,Pacific,Yes,Yes,NA,Yes,Han
+3290561192,30-44,Female,"$50,000 - $99,999",Bachelor degree,West South Central,Yes,Yes,NA,Yes,Greedo
+3290553558,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290552963,18-29,Male,"$50,000 - $99,999",Bachelor degree,New England,Yes,No,NA,Yes,Han
+3290551809,30-44,Male,"$150,000+",Bachelor degree,Pacific,Yes,No,NA,No,Han
+3290544865,45-60,Male,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,No,Yes,Han
+3290544012,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290539653,18-29,Female,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,Yes,No,Yes,Greedo
+3290538433,30-44,Female,"$25,000 - $49,999",Bachelor degree,New England,Yes,Yes,NA,No,I don't understand this question
+3290532429,18-29,Male,"$50,000 - $99,999",Graduate degree,Pacific,Yes,Yes,NA,No,I don't understand this question
+3290531735,45-60,Male,"$50,000 - $99,999",Graduate degree,West South Central,Yes,Yes,NA,Yes,Greedo
+3290525782,45-60,Female,"$100,000 - $149,999",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290524413,30-44,Male,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,No,NA,Yes,I don't understand this question
+3290519884,45-60,Male,NA,Bachelor degree,Mountain,Yes,Yes,Yes,Yes,Han
+3290515688,45-60,Female,NA,Graduate degree,Pacific,Yes,Yes,NA,Yes,I don't understand this question
+3290511533,> 60,Male,NA,Bachelor degree,South Atlantic,Yes,No,No,Yes,Han
+3290506830,30-44,Female,NA,Graduate degree,Mountain,Yes,Yes,NA,No,Han
+3290506333,45-60,Female,NA,Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290505081,18-29,Female,"$0 - $24,999",Some college or Associate degree,South Atlantic,Yes,Yes,Yes,Yes,Greedo
+3290500457,45-60,Male,"$100,000 - $149,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3290499954,30-44,Female,"$25,000 - $49,999",Some college or Associate degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3290499953,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290496822,30-44,Female,NA,Bachelor degree,West North Central,Yes,Yes,NA,No,Han
+3290491807,NA,NA,NA,NA,NA,Yes,Yes,NA,Yes,Han
+3290477551,> 60,Male,NA,Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Greedo
+3290474953,> 60,Male,NA,Graduate degree,West South Central,Yes,No,NA,No,Han
+3290471553,45-60,Male,"$0 - $24,999",Bachelor degree,New England,Yes,Yes,Yes,Yes,Han
+3290467062,30-44,Male,"$0 - $24,999",Bachelor degree,New England,Yes,Yes,NA,Yes,Han
+3290467000,45-60,Female,"$50,000 - $99,999",Graduate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290464481,45-60,Female,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3290461599,> 60,Male,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Yes,Yes,No,Yes,Han
+3290461455,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290448644,> 60,Female,"$50,000 - $99,999",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290444421,18-29,Female,"$0 - $24,999",Bachelor degree,South Atlantic,Yes,Yes,No,Yes,Greedo
+3290439063,18-29,Male,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,Yes,Yes,Yes,Han
+3290437717,> 60,Female,NA,Graduate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290432874,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290428766,30-44,Female,NA,Some college or Associate degree,Middle Atlantic,Yes,No,NA,No,Han
+3290427764,> 60,Female,"$100,000 - $149,999",Some college or Associate degree,East South Central,Yes,Yes,Yes,Yes,I don't understand this question
+3290426384,45-60,Male,"$100,000 - $149,999",Bachelor degree,East North Central,Yes,Yes,No,Yes,I don't understand this question
+3290426289,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290423155,45-60,Male,"$150,000+",Graduate degree,West South Central,Yes,Yes,NA,Yes,Han
+3290421738,18-29,Female,"$0 - $24,999",Some college or Associate degree,Pacific,Yes,Yes,NA,No,Han
+3290417966,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,I don't understand this question
+3290412412,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290411058,45-60,Female,"$100,000 - $149,999",High school degree,East North Central,Yes,Yes,NA,No,Han
+3290409431,> 60,Female,"$25,000 - $49,999",High school degree,East North Central,Yes,No,NA,No,Han
+3290409075,45-60,Male,"$150,000+",Graduate degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3290407409,18-29,Female,"$0 - $24,999",Bachelor degree,Mountain,Yes,Yes,NA,No,Greedo
+3290401956,30-44,Female,"$150,000+",Bachelor degree,Pacific,Yes,Yes,No,Yes,Han
+3290394872,30-44,Female,"$50,000 - $99,999",Bachelor degree,East South Central,Yes,Yes,NA,Yes,Han
+3290392454,45-60,Male,NA,Some college or Associate degree,Middle Atlantic,Yes,Yes,Yes,Yes,Han
+3290392264,> 60,Female,"$150,000+",Some college or Associate degree,South Atlantic,Yes,No,No,Yes,Greedo
+3290391985,> 60,Female,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3290386524,> 60,Female,"$50,000 - $99,999",Graduate degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3290380140,> 60,Male,"$25,000 - $49,999",Bachelor degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290374523,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,New England,Yes,Yes,Yes,Yes,Greedo
+3290371532,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290371101,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290365225,> 60,Female,NA,Graduate degree,New England,Yes,Yes,NA,Yes,Han
+3290364952,45-60,Male,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,Yes,NA,No,Greedo
+3290350512,18-29,Female,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Greedo
+3290347473,18-29,Male,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,Greedo
+3290344571,> 60,Male,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,Yes,Yes,Yes,Greedo
+3290343366,45-60,Female,"$50,000 - $99,999",Graduate degree,New England,Yes,Yes,NA,No,Han
+3290342169,18-29,Male,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,No,NA,No,Han
+3290342102,> 60,Female,"$150,000+",Bachelor degree,West North Central,Yes,Yes,NA,Yes,I don't understand this question
+3290340804,> 60,Male,"$50,000 - $99,999",High school degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3290337251,> 60,Male,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3290335343,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290328309,30-44,Female,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3290325811,30-44,Male,"$25,000 - $49,999",Bachelor degree,West South Central,Yes,Yes,Yes,Yes,Han
+3290324518,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290320007,30-44,Male,"$25,000 - $49,999",Bachelor degree,New England,Yes,Yes,No,Yes,Han
+3290318577,30-44,Female,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290317691,30-44,Female,"$150,000+",Graduate degree,Pacific,Yes,Yes,Yes,Yes,Han
+3290316632,> 60,Male,NA,High school degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3290316375,> 60,Female,"$0 - $24,999",Some college or Associate degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3290315336,45-60,Female,"$100,000 - $149,999",Bachelor degree,Middle Atlantic,Yes,Yes,Yes,Yes,Greedo
+3290309722,> 60,Female,"$100,000 - $149,999",Bachelor degree,Pacific,Yes,Yes,Yes,Yes,Han
+3290309711,45-60,Male,"$50,000 - $99,999",Graduate degree,Pacific,Yes,Yes,NA,Yes,I don't understand this question
+3290304610,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290296317,45-60,Female,"$100,000 - $149,999",Bachelor degree,West South Central,Yes,No,NA,No,Greedo
+3290295809,45-60,Male,NA,Graduate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290294142,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290292697,45-60,Female,"$150,000+",Bachelor degree,Mountain,Yes,Yes,No,Yes,Han
+3290289176,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290283817,> 60,Female,NA,High school degree,Pacific,Yes,Yes,No,Yes,I don't understand this question
+3290283139,> 60,Female,"$50,000 - $99,999",High school degree,East North Central,Yes,Yes,Yes,Yes,Greedo
+3290279732,30-44,Male,"$50,000 - $99,999",High school degree,Middle Atlantic,Yes,No,NA,No,Greedo
+3290269777,> 60,Female,"$50,000 - $99,999",Graduate degree,Mountain,Yes,No,No,No,Greedo
+3290266084,> 60,Male,NA,Graduate degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3290262568,45-60,Male,"$25,000 - $49,999",Graduate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290257673,45-60,Male,"$50,000 - $99,999",Some college or Associate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290229579,> 60,Female,NA,Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290227264,45-60,Male,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3290223393,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3290216970,18-29,Female,"$0 - $24,999",Bachelor degree,New England,Yes,Yes,NA,No,Han
+3290213089,45-60,Male,"$25,000 - $49,999",Bachelor degree,East North Central,Yes,Yes,No,No,Han
+3290210801,45-60,Male,NA,Graduate degree,West North Central,Yes,Yes,No,Yes,Han
+3290209773,> 60,Female,NA,Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3290209744,18-29,Male,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Yes,Yes,Yes,Yes,Han
+3290206907,30-44,Male,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,No,NA,Yes,I don't understand this question
+3290203063,45-60,Male,"$150,000+",Bachelor degree,New England,Yes,Yes,NA,Yes,I don't understand this question
+3290201752,> 60,Female,"$150,000+",High school degree,Pacific,Yes,No,NA,No,Han
+3290196296,45-60,Female,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,No,NA,No,Greedo
+3290193368,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290191566,30-44,Female,"$0 - $24,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3290188213,18-29,Male,NA,Bachelor degree,East South Central,Yes,Yes,Yes,Yes,Han
+3290185244,18-29,Female,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290176915,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290176563,18-29,Female,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,No,Yes,Han
+3290174048,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290173775,> 60,Female,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,Yes,Yes,Yes,Han
+3290173176,18-29,Male,"$25,000 - $49,999",Graduate degree,South Atlantic,Yes,Yes,No,No,Han
+3290167473,> 60,Male,"$150,000+",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290164098,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290157529,18-29,Female,"$100,000 - $149,999",Bachelor degree,Pacific,Yes,Yes,NA,Yes,I don't understand this question
+3290149698,30-44,Female,"$0 - $24,999",Graduate degree,South Atlantic,Yes,Yes,NA,No,Greedo
+3290148834,18-29,Female,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3290145517,45-60,Male,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,Yes,NA,Yes,I don't understand this question
+3290142232,18-29,Male,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3290139192,> 60,Male,"$50,000 - $99,999",Graduate degree,Mountain,Yes,Yes,No,Yes,Han
+3290137793,> 60,Female,NA,Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Greedo
+3290128468,> 60,Female,"$50,000 - $99,999",Graduate degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3290125801,> 60,Male,"$150,000+",Graduate degree,East North Central,Yes,No,No,No,Han
+3290125784,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,East North Central,Yes,Yes,No,Yes,Han
+3290125550,18-29,Male,"$25,000 - $49,999",High school degree,East North Central,Yes,Yes,Yes,No,Han
+3290125357,30-44,Male,"$50,000 - $99,999",High school degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3290124259,18-29,Male,"$150,000+",High school degree,New England,Yes,No,NA,No,I don't understand this question
+3290116182,30-44,Female,"$100,000 - $149,999",Bachelor degree,Mountain,Yes,Yes,NA,Yes,I don't understand this question
+3290109779,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,NA,No,Han
+3290103593,45-60,Female,"$0 - $24,999",Bachelor degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3290099797,30-44,Female,"$100,000 - $149,999",Some college or Associate degree,New England,Yes,Yes,NA,No,Greedo
+3290097546,> 60,Male,NA,Graduate degree,East North Central,Yes,Yes,NA,Yes,Greedo
+3290097268,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290095220,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290083352,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290081504,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290070395,> 60,Female,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,No,No,No,Greedo
+3290068892,> 60,Female,"$50,000 - $99,999",Graduate degree,Mountain,Yes,No,NA,No,I don't understand this question
+3290068765,45-60,Male,"$100,000 - $149,999",Some college or Associate degree,South Atlantic,Yes,Yes,No,Yes,Greedo
+3290063543,> 60,Female,"$100,000 - $149,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3290062936,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290061815,> 60,Male,"$50,000 - $99,999",Graduate degree,Pacific,Yes,Yes,NA,Yes,Han
+3290058506,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3290058216,30-44,Female,"$50,000 - $99,999",High school degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3290049231,45-60,Male,"$25,000 - $49,999",Graduate degree,New England,Yes,No,NA,No,I don't understand this question
+3290048884,45-60,Male,NA,Some college or Associate degree,West South Central,Yes,Yes,No,No,Han
+3290047842,30-44,Male,"$100,000 - $149,999",Bachelor degree,New England,Yes,Yes,NA,Yes,Greedo
+3290047483,45-60,Male,"$25,000 - $49,999",Some college or Associate degree,West North Central,Yes,Yes,No,Yes,Greedo
+3290046627,18-29,Female,"$25,000 - $49,999",Bachelor degree,West South Central,Yes,Yes,Yes,Yes,Han
+3290042369,> 60,Female,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,NA,No,I don't understand this question
+3290038794,45-60,Female,"$150,000+",Graduate degree,New England,Yes,Yes,NA,No,Han
+3290034196,18-29,Female,NA,Some college or Associate degree,West South Central,Yes,No,NA,No,I don't understand this question
+3290032864,45-60,Male,"$100,000 - $149,999",Graduate degree,East North Central,Yes,Yes,NA,No,I don't understand this question
+3290029531,> 60,Female,"$100,000 - $149,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3290024333,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,Mountain,Yes,Yes,Yes,Yes,Han
+3290022302,18-29,Male,"$25,000 - $49,999",Bachelor degree,Pacific,Yes,No,No,No,Han
+3290019869,> 60,Male,"$25,000 - $49,999",Bachelor degree,West North Central,Yes,No,NA,No,Greedo
+3290019779,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290018381,> 60,Female,"$25,000 - $49,999",Graduate degree,East North Central,Yes,Yes,NA,Yes,Han
+3290017901,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290013239,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3290011286,45-60,Female,NA,Graduate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3290010419,> 60,Male,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3290005674,> 60,Female,"$0 - $24,999",Some college or Associate degree,Mountain,Yes,Yes,Yes,Yes,Greedo
+3290002601,18-29,Female,"$0 - $24,999",Graduate degree,East North Central,Yes,Yes,NA,No,I don't understand this question
+3289997713,> 60,Male,"$50,000 - $99,999",Bachelor degree,Mountain,Yes,Yes,NA,Yes,I don't understand this question
+3289997196,45-60,Male,NA,Bachelor degree,East North Central,Yes,Yes,Yes,Yes,Han
+3289996800,18-29,Female,"$0 - $24,999",Bachelor degree,New England,Yes,Yes,NA,No,Han
+3289996025,30-44,Female,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,Yes,Yes,Greedo
+3289995352,> 60,Female,"$25,000 - $49,999",Bachelor degree,East South Central,Yes,No,No,No,Greedo
+3289993284,30-44,Female,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3289988393,> 60,Female,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,No,No,No,Greedo
+3289986698,> 60,Female,"$100,000 - $149,999",Some college or Associate degree,East South Central,Yes,No,NA,No,I don't understand this question
+3289985995,> 60,Male,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3289980534,> 60,Female,NA,Graduate degree,New England,Yes,Yes,NA,No,I don't understand this question
+3289973506,30-44,Female,NA,Graduate degree,Pacific,Yes,Yes,NA,Yes,I don't understand this question
+3289971256,30-44,Male,NA,Bachelor degree,East North Central,Yes,No,NA,No,I don't understand this question
+3289963393,> 60,Female,"$150,000+",Bachelor degree,Mountain,Yes,Yes,NA,No,I don't understand this question
+3289962614,> 60,Male,"$50,000 - $99,999",Graduate degree,West North Central,Yes,Yes,Yes,Yes,Greedo
+3289955364,45-60,Male,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3289952496,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,New England,Yes,Yes,No,Yes,I don't understand this question
+3289951011,> 60,Female,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,No,NA,Yes,Han
+3289949516,NA,NA,NA,NA,NA,Yes,No,NA,NA,NA
+3289949409,30-44,Male,"$50,000 - $99,999",Bachelor degree,West North Central,Yes,Yes,NA,Yes,Han
+3289943405,> 60,Male,"$50,000 - $99,999",Graduate degree,Mountain,Yes,No,NA,No,Han
+3289943097,45-60,Female,"$50,000 - $99,999",Graduate degree,Middle Atlantic,Yes,No,NA,No,Han
+3289933137,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3289927404,> 60,Female,NA,Graduate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3289924943,45-60,Female,"$150,000+",Bachelor degree,West South Central,Yes,Yes,Yes,Yes,Greedo
+3289923980,45-60,Female,"$50,000 - $99,999",Graduate degree,Pacific,Yes,Yes,No,Yes,Han
+3289920249,18-29,Female,"$150,000+",Bachelor degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3289919285,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289918842,45-60,Male,"$0 - $24,999",Some college or Associate degree,Pacific,Yes,No,NA,No,Han
+3289914533,18-29,Male,NA,Some college or Associate degree,Pacific,Yes,Yes,NA,No,Greedo
+3289914097,45-60,Female,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3289913649,> 60,Male,"$0 - $24,999",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3289911175,> 60,Male,NA,High school degree,Mountain,Yes,Yes,NA,Yes,Greedo
+3289909917,45-60,Male,"$150,000+",Some college or Associate degree,New England,Yes,Yes,NA,Yes,Greedo
+3289907541,> 60,Female,"$50,000 - $99,999",Graduate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3289905986,18-29,Female,"$0 - $24,999",Bachelor degree,West North Central,Yes,No,NA,No,I don't understand this question
+3289905044,30-44,Female,"$25,000 - $49,999",High school degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3289902920,30-44,Male,"$100,000 - $149,999",Graduate degree,New England,Yes,Yes,Yes,No,Han
+3289902115,30-44,Female,"$50,000 - $99,999",Bachelor degree,New England,Yes,No,NA,No,I don't understand this question
+3289901820,45-60,Male,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,Yes,No,Yes,Han
+3289901633,30-44,Female,"$150,000+",Graduate degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3289897826,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3289896565,30-44,Female,"$25,000 - $49,999",Graduate degree,West South Central,Yes,Yes,No,Yes,Han
+3289895732,18-29,Female,"$25,000 - $49,999",Graduate degree,Pacific,Yes,Yes,Yes,Yes,Han
+3289888015,30-44,Female,"$50,000 - $99,999",Graduate degree,Pacific,Yes,Yes,No,No,Han
+3289885747,> 60,Male,"$100,000 - $149,999",Bachelor degree,East North Central,Yes,No,NA,Yes,I don't understand this question
+3289878528,30-44,Female,"$50,000 - $99,999",Bachelor degree,Mountain,Yes,Yes,NA,No,Greedo
+3289877093,45-60,Male,"$100,000 - $149,999",Graduate degree,West South Central,Yes,Yes,NA,Yes,Greedo
+3289874408,30-44,Male,"$50,000 - $99,999",Less than high school degree,New England,Yes,Yes,No,Yes,Han
+3289873978,45-60,Female,"$50,000 - $99,999",Graduate degree,West North Central,Yes,Yes,NA,No,I don't understand this question
+3289870772,45-60,Male,"$25,000 - $49,999",Graduate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3289868197,> 60,Male,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,Yes,No,Yes,I don't understand this question
+3289866531,> 60,Male,"$50,000 - $99,999",Some college or Associate degree,East North Central,Yes,Yes,NA,No,I don't understand this question
+3289865550,45-60,Female,"$50,000 - $99,999",Bachelor degree,West North Central,Yes,No,NA,No,Han
+3289864687,45-60,Male,"$100,000 - $149,999",Bachelor degree,West North Central,Yes,Yes,NA,No,Han
+3289862004,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289861464,> 60,Male,"$0 - $24,999",Bachelor degree,Mountain,Yes,Yes,No,Yes,I don't understand this question
+3289857817,30-44,Female,"$50,000 - $99,999",Graduate degree,West North Central,Yes,Yes,NA,No,Han
+3289856887,> 60,Female,NA,Graduate degree,Middle Atlantic,Yes,Yes,NA,No,Greedo
+3289855873,18-29,Female,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3289854601,> 60,Male,NA,Bachelor degree,West South Central,Yes,Yes,Yes,Yes,I don't understand this question
+3289847932,18-29,Male,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,Yes,Yes,No,Han
+3289844139,> 60,Male,"$50,000 - $99,999",Graduate degree,West North Central,Yes,Yes,NA,Yes,Han
+3289843973,NA,NA,NA,NA,NA,Yes,Yes,NA,NA,NA
+3289835282,> 60,Male,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,Yes,NA,Yes,Han
+3289829982,30-44,Female,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Greedo
+3289822005,> 60,Female,NA,Some college or Associate degree,East South Central,Yes,Yes,NA,Yes,Han
+3289821310,> 60,Female,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,I don't understand this question
+3289815685,30-44,Male,"$25,000 - $49,999",Bachelor degree,West North Central,Yes,Yes,NA,Yes,Han
+3289813977,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,I don't understand this question
+3289812188,NA,NA,NA,NA,NA,Yes,Yes,Yes,Yes,Han
+3289809469,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,Yes,No,No,Han
+3289805753,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289804908,30-44,Female,"$100,000 - $149,999",Bachelor degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3289804326,45-60,Male,"$25,000 - $49,999",Graduate degree,East South Central,Yes,Yes,NA,Yes,Han
+3289804031,45-60,Female,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,NA,Yes,I don't understand this question
+3289802847,30-44,Female,"$50,000 - $99,999",Bachelor degree,East South Central,Yes,No,NA,No,Han
+3289799650,30-44,Female,"$150,000+",Graduate degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3289799581,30-44,Female,"$50,000 - $99,999",Some college or Associate degree,Mountain,Yes,Yes,NA,No,I don't understand this question
+3289798968,> 60,Female,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3289798759,30-44,Male,NA,Some college or Associate degree,East North Central,Yes,Yes,Yes,No,Han
+3289795859,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289790146,45-60,Male,"$150,000+",Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3289786719,> 60,Male,"$100,000 - $149,999",Some college or Associate degree,Middle Atlantic,Yes,Yes,Yes,Yes,Han
+3289781705,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3289758800,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Yes,Yes,No,Yes,Greedo
+3289757385,30-44,Female,NA,Some college or Associate degree,East North Central,Yes,Yes,NA,No,Han
+3289757163,45-60,Male,"$50,000 - $99,999",Graduate degree,Pacific,Yes,Yes,No,Yes,Greedo
+3289752347,30-44,Female,"$50,000 - $99,999",High school degree,East South Central,Yes,No,NA,Yes,I don't understand this question
+3289751464,> 60,Male,NA,Graduate degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3289745063,> 60,Male,"$25,000 - $49,999",Graduate degree,New England,Yes,Yes,NA,Yes,I don't understand this question
+3289737236,30-44,Female,"$25,000 - $49,999",Bachelor degree,West South Central,Yes,Yes,NA,Yes,Han
+3289735954,> 60,Male,NA,Bachelor degree,Mountain,Yes,No,NA,No,I don't understand this question
+3289733444,> 60,Female,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,Yes,Yes,Yes,I don't understand this question
+3289730973,> 60,Female,NA,Graduate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3289727014,> 60,Male,"$100,000 - $149,999",Graduate degree,New England,Yes,Yes,NA,Yes,Han
+3289725827,> 60,Female,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3289725605,> 60,Male,"$50,000 - $99,999",Graduate degree,New England,Yes,Yes,NA,Yes,Han
+3289722110,> 60,Male,"$50,000 - $99,999",Bachelor degree,West South Central,Yes,No,Yes,No,I don't understand this question
+3289711817,30-44,Male,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3289706727,18-29,Female,"$0 - $24,999",Some college or Associate degree,Pacific,Yes,Yes,NA,No,Han
+3289706550,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289705195,45-60,Male,"$100,000 - $149,999",Bachelor degree,East North Central,Yes,Yes,NA,Yes,Han
+3289700288,18-29,Male,"$25,000 - $49,999",Some college or Associate degree,New England,Yes,Yes,NA,No,Greedo
+3289695941,45-60,Male,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,Yes,NA,No,Han
+3289693023,> 60,Male,"$150,000+",Graduate degree,East North Central,Yes,Yes,NA,No,Han
+3289692258,45-60,Male,"$0 - $24,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3289689331,30-44,Female,"$25,000 - $49,999",Bachelor degree,West North Central,Yes,No,NA,Yes,Greedo
+3289688885,> 60,Male,"$50,000 - $99,999",Bachelor degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3289684323,30-44,Male,"$100,000 - $149,999",Graduate degree,West North Central,Yes,Yes,NA,No,I don't understand this question
+3289681765,45-60,Male,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3289680108,30-44,Female,NA,Some college or Associate degree,West South Central,Yes,No,NA,No,Greedo
+3289673695,45-60,Male,"$150,000+",Bachelor degree,East North Central,Yes,No,NA,Yes,I don't understand this question
+3289664241,18-29,Male,NA,High school degree,South Atlantic,Yes,Yes,Yes,No,Greedo
+3289653763,> 60,Male,"$0 - $24,999",Graduate degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3289652167,45-60,Female,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,No,Yes,Greedo
+3289645505,> 60,Male,"$25,000 - $49,999",High school degree,East North Central,Yes,No,NA,No,I don't understand this question
+3289644365,> 60,Male,"$100,000 - $149,999",Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3289641241,30-44,Female,"$25,000 - $49,999",Bachelor degree,Mountain,Yes,No,NA,No,I don't understand this question
+3289638367,> 60,Male,"$25,000 - $49,999",Bachelor degree,East North Central,Yes,Yes,No,No,Greedo
+3289633176,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,I don't understand this question
+3289628791,> 60,Male,NA,Bachelor degree,East North Central,Yes,No,NA,No,I don't understand this question
+3289625905,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289625071,45-60,Female,"$50,000 - $99,999",Some college or Associate degree,New England,Yes,Yes,No,Yes,Greedo
+3289621004,45-60,Female,"$50,000 - $99,999",High school degree,Middle Atlantic,Yes,Yes,NA,Yes,Greedo
+3289619487,NA,NA,NA,NA,NA,Yes,No,NA,No,Greedo
+3289618768,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289618355,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289616064,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289610618,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289610391,45-60,Female,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,No,NA,No,Greedo
+3289600885,30-44,Female,"$100,000 - $149,999",Bachelor degree,West North Central,Yes,No,NA,No,I don't understand this question
+3289598419,45-60,Female,"$25,000 - $49,999",Bachelor degree,West North Central,Yes,No,NA,No,Han
+3289597035,30-44,Male,"$25,000 - $49,999",Graduate degree,New England,Yes,Yes,NA,Yes,Han
+3289588064,45-60,Male,NA,Graduate degree,West South Central,Yes,No,NA,No,I don't understand this question
+3289582868,30-44,Male,"$25,000 - $49,999",Some college or Associate degree,Mountain,Yes,Yes,NA,Yes,Han
+3289582774,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3289582090,45-60,Female,"$50,000 - $99,999",High school degree,New England,Yes,Yes,NA,Yes,Greedo
+3289573606,45-60,Female,"$50,000 - $99,999",Bachelor degree,West North Central,Yes,Yes,NA,Yes,Han
+3289572808,> 60,Male,"$100,000 - $149,999",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3289567355,> 60,Female,NA,Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,I don't understand this question
+3289564387,30-44,Female,"$50,000 - $99,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Han
+3289561190,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289560376,45-60,Female,NA,Bachelor degree,Pacific,Yes,Yes,NA,Yes,Han
+3289553574,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289553473,30-44,Male,"$100,000 - $149,999",Bachelor degree,East North Central,Yes,Yes,No,No,Han
+3289552996,30-44,Female,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Yes,Yes,NA,Yes,Greedo
+3289552625,30-44,Female,"$50,000 - $99,999",Some college or Associate degree,New England,Yes,No,NA,No,Greedo
+3289543778,45-60,Female,"$100,000 - $149,999",Bachelor degree,East South Central,Yes,Yes,NA,No,Han
+3289540349,18-29,Male,"$0 - $24,999",Bachelor degree,West South Central,Yes,Yes,No,Yes,Han
+3289539921,30-44,Female,"$0 - $24,999",Graduate degree,Pacific,Yes,Yes,Yes,Yes,Han
+3289537363,30-44,Female,"$100,000 - $149,999",Bachelor degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3289537293,> 60,Male,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,Yes,NA,Yes,Greedo
+3289536171,30-44,Female,"$150,000+",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3289533753,45-60,Female,"$50,000 - $99,999",Graduate degree,East South Central,Yes,Yes,Yes,Yes,I don't understand this question
+3289531711,45-60,Female,"$0 - $24,999",Graduate degree,Pacific,Yes,Yes,Yes,Yes,I don't understand this question
+3289530042,30-44,Male,"$25,000 - $49,999",Bachelor degree,Middle Atlantic,Yes,Yes,No,Yes,Han
+3289529064,45-60,Male,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,No,NA,Yes,I don't understand this question
+3289526845,> 60,Male,"$100,000 - $149,999",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3289526048,30-44,Female,"$25,000 - $49,999",Graduate degree,Mountain,Yes,No,NA,No,I don't understand this question
+3289522048,45-60,Male,"$25,000 - $49,999",Bachelor degree,Pacific,Yes,No,No,No,Han
+3289510637,18-29,Female,"$100,000 - $149,999",Graduate degree,Pacific,Yes,No,NA,No,Han
+3289510083,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289508774,> 60,Female,"$0 - $24,999",Bachelor degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3289505557,18-29,Female,"$25,000 - $49,999",Graduate degree,West North Central,Yes,No,NA,No,I don't understand this question
+3289498676,45-60,Male,"$150,000+",Graduate degree,East North Central,Yes,Yes,NA,Yes,I don't understand this question
+3289498263,45-60,Female,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,Yes,NA,No,Han
+3289498064,45-60,Female,NA,Bachelor degree,New England,Yes,Yes,NA,Yes,Greedo
+3289492759,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289492075,45-60,Female,"$25,000 - $49,999",Some college or Associate degree,West South Central,Yes,No,NA,No,I don't understand this question
+3289489736,45-60,Female,"$25,000 - $49,999",Bachelor degree,West North Central,Yes,Yes,NA,Yes,Greedo
+3289484757,30-44,Female,"$25,000 - $49,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3289481310,> 60,Male,NA,Bachelor degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3289472648,18-29,Female,"$0 - $24,999",Bachelor degree,Middle Atlantic,Yes,Yes,Yes,Yes,Greedo
+3289467778,45-60,Male,"$50,000 - $99,999",Bachelor degree,West North Central,Yes,Yes,NA,Yes,Greedo
+3289467324,45-60,Female,"$100,000 - $149,999",Bachelor degree,Mountain,Yes,Yes,NA,Yes,Greedo
+3289463066,45-60,Male,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,Yes,No,Yes,Han
+3289459695,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289458608,18-29,Female,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,Yes,No,Yes,Greedo
+3289453110,NA,NA,NA,NA,NA,Yes,Yes,NA,NA,NA
+3289450247,> 60,Female,"$50,000 - $99,999",Graduate degree,New England,Yes,No,NA,No,I don't understand this question
+3289450050,> 60,Female,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3289449176,30-44,Female,NA,Bachelor degree,East North Central,Yes,No,NA,Yes,I don't understand this question
+3289448435,> 60,Male,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,Yes,Yes,Yes,Han
+3289445841,45-60,Female,"$150,000+",Bachelor degree,West South Central,Yes,Yes,NA,Yes,Han
+3289436437,30-44,Male,NA,Bachelor degree,East North Central,Yes,Yes,Yes,Yes,Han
+3289434297,45-60,Male,"$0 - $24,999",High school degree,Middle Atlantic,Yes,Yes,Yes,Yes,Han
+3289425578,45-60,Female,NA,Graduate degree,South Atlantic,Yes,Yes,NA,No,Greedo
+3289423303,45-60,Female,"$150,000+",Graduate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3289418012,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289416615,45-60,Male,"$0 - $24,999",Some college or Associate degree,West North Central,Yes,Yes,NA,Yes,Greedo
+3289414959,45-60,Male,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,Yes,Yes,Yes,Han
+3289414036,45-60,Female,"$0 - $24,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3289410507,NA,NA,NA,NA,NA,Yes,Yes,NA,NA,NA
+3289410455,18-29,Male,"$150,000+",Graduate degree,South Atlantic,Yes,Yes,No,Yes,I don't understand this question
+3289398157,45-60,Male,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3289394268,18-29,Female,"$25,000 - $49,999",Bachelor degree,West North Central,Yes,Yes,Yes,No,I don't understand this question
+3289393495,> 60,Male,"$25,000 - $49,999",Bachelor degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3289392497,30-44,Female,"$0 - $24,999",High school degree,East North Central,Yes,Yes,NA,Yes,Han
+3289383220,> 60,Female,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,No,NA,No,I don't understand this question
+3289381739,45-60,Female,NA,Some college or Associate degree,Pacific,Yes,Yes,NA,No,Han
+3289370623,45-60,Female,"$25,000 - $49,999",Bachelor degree,West North Central,Yes,Yes,NA,No,Han
+3289369318,30-44,Female,"$50,000 - $99,999",Graduate degree,West North Central,Yes,Yes,No,Yes,Greedo
+3289363684,18-29,Male,"$50,000 - $99,999",Bachelor degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3289358306,45-60,Female,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3289354975,18-29,Female,"$0 - $24,999",Bachelor degree,New England,Yes,Yes,NA,No,Han
+3289351950,45-60,Female,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3289351379,30-44,Female,"$50,000 - $99,999",Some college or Associate degree,Mountain,Yes,Yes,NA,Yes,Han
+3289322178,30-44,Female,"$25,000 - $49,999",Bachelor degree,Pacific,Yes,No,NA,No,Greedo
+3289321600,> 60,Male,"$150,000+",Graduate degree,New England,Yes,No,NA,No,I don't understand this question
+3289317542,30-44,Male,NA,Graduate degree,Middle Atlantic,Yes,Yes,Yes,Yes,Han
+3289311086,> 60,Female,"$50,000 - $99,999",NA,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3289281855,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289274314,> 60,Male,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,Yes,NA,Yes,Greedo
+3289262699,30-44,Female,"$50,000 - $99,999",Bachelor degree,East North Central,Yes,No,NA,No,Greedo
+3289262511,18-29,Male,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,No,NA,No,Han
+3289236782,30-44,Male,NA,Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3289198607,18-29,Male,"$25,000 - $49,999",Graduate degree,New England,Yes,No,No,No,Han
+3289178815,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3289177383,30-44,Male,"$100,000 - $149,999",Some college or Associate degree,New England,Yes,Yes,Yes,Yes,Han
+3289156917,30-44,Male,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Yes,Yes,Yes,Yes,Greedo
+3289153001,NA,NA,NA,NA,NA,Yes,No,NA,No,Greedo
+3289148779,> 60,Male,"$50,000 - $99,999",Graduate degree,West North Central,Yes,No,NA,No,Greedo
+3289112999,45-60,Female,"$150,000+",Bachelor degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3289095873,> 60,Female,"$100,000 - $149,999",Graduate degree,Mountain,Yes,No,NA,No,I don't understand this question
+3289069642,30-44,Male,NA,Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3289064086,30-44,Female,NA,Graduate degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3289054324,30-44,Male,"$150,000+",Some college or Associate degree,East North Central,Yes,Yes,Yes,No,Han
+3289049751,45-60,Female,NA,Graduate degree,New England,Yes,No,NA,Yes,Greedo
+3288941294,30-44,Male,"$150,000+",Graduate degree,South Atlantic,Yes,Yes,NA,Yes,Greedo
+3288846487,> 60,Male,NA,Graduate degree,Middle Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3288802482,> 60,Female,NA,Graduate degree,South Atlantic,Yes,Yes,NA,No,Greedo
+3288793006,> 60,Female,"$50,000 - $99,999",Bachelor degree,Mountain,Yes,Yes,NA,No,I don't understand this question
+3288777560,18-29,Male,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,Yes,NA,No,Han
+3288772244,18-29,Female,NA,High school degree,East North Central,Yes,No,NA,No,I don't understand this question
+3288771826,30-44,Female,"$150,000+",Bachelor degree,East North Central,Yes,No,NA,No,Greedo
+3288750443,45-60,Male,"$0 - $24,999",Some college or Associate degree,Mountain,Yes,Yes,No,Yes,Han
+3288741236,18-29,Female,"$25,000 - $49,999",Some college or Associate degree,Mountain,Yes,Yes,NA,Yes,Han
+3288740386,18-29,Female,NA,Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3288728912,45-60,Female,"$50,000 - $99,999",Bachelor degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3288723253,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288722710,45-60,Female,"$0 - $24,999",Some college or Associate degree,New England,Yes,Yes,NA,Yes,Han
+3288719090,18-29,Female,"$25,000 - $49,999",Bachelor degree,West South Central,Yes,No,NA,Yes,I don't understand this question
+3288718743,18-29,Female,"$150,000+",Bachelor degree,Pacific,Yes,Yes,NA,Yes,Han
+3288714827,30-44,Female,"$0 - $24,999",Graduate degree,Pacific,Yes,Yes,No,No,Greedo
+3288714697,18-29,Female,"$0 - $24,999",High school degree,West North Central,Yes,No,NA,No,I don't understand this question
+3288713721,18-29,Female,"$0 - $24,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3288713570,45-60,Female,"$100,000 - $149,999",Bachelor degree,South Atlantic,Yes,Yes,No,Yes,Greedo
+3288712832,45-60,Female,"$25,000 - $49,999",Some college or Associate degree,West North Central,Yes,Yes,NA,Yes,Han
+3288704807,45-60,Male,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3288702291,30-44,Male,"$150,000+",Graduate degree,Pacific,Yes,Yes,Yes,Yes,Han
+3288700554,45-60,Female,"$25,000 - $49,999",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3288698085,> 60,Female,"$25,000 - $49,999",Graduate degree,Pacific,Yes,Yes,NA,Yes,Han
+3288697760,18-29,Female,"$100,000 - $149,999",Some college or Associate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3288690295,> 60,Male,NA,Bachelor degree,Mountain,Yes,Yes,NA,Yes,Han
+3288687502,18-29,Female,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,NA,Yes,I don't understand this question
+3288685641,30-44,Female,"$50,000 - $99,999",Graduate degree,West South Central,Yes,Yes,NA,No,I don't understand this question
+3288683105,18-29,Male,NA,Less than high school degree,South Atlantic,Yes,Yes,No,No,Han
+3288682774,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288682656,30-44,Female,"$50,000 - $99,999",Bachelor degree,New England,Yes,Yes,NA,Yes,Han
+3288678886,18-29,Female,"$100,000 - $149,999",Some college or Associate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3288675923,18-29,Female,NA,Graduate degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3288672490,18-29,Female,"$50,000 - $99,999",Bachelor degree,Pacific,Yes,No,NA,No,Han
+3288672409,18-29,Female,NA,Some college or Associate degree,Pacific,Yes,Yes,NA,No,Han
+3288671359,18-29,Female,"$25,000 - $49,999",Some college or Associate degree,Mountain,Yes,Yes,NA,No,Greedo
+3288671328,18-29,Female,"$0 - $24,999",Bachelor degree,New England,Yes,Yes,NA,Yes,Han
+3288670345,30-44,Female,NA,Graduate degree,Pacific,Yes,Yes,NA,No,Greedo
+3288668791,18-29,Female,"$150,000+",Bachelor degree,West North Central,Yes,Yes,NA,No,I don't understand this question
+3288668176,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Yes,Yes,Yes,Yes,Greedo
+3288665355,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288660175,45-60,Female,"$50,000 - $99,999",Graduate degree,Pacific,Yes,Yes,No,No,Greedo
+3288657866,> 60,Female,"$0 - $24,999",Graduate degree,Pacific,Yes,No,NA,Yes,I don't understand this question
+3288657113,18-29,Female,"$25,000 - $49,999",Bachelor degree,East North Central,Yes,Yes,NA,No,I don't understand this question
+3288653945,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288653548,> 60,Male,"$50,000 - $99,999",High school degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3288653149,18-29,Female,"$150,000+",Some college or Associate degree,East North Central,Yes,Yes,Yes,Yes,Han
+3288650455,45-60,Female,NA,Graduate degree,East North Central,Yes,Yes,NA,Yes,Han
+3288647913,30-44,Female,"$50,000 - $99,999",Some college or Associate degree,East South Central,Yes,Yes,NA,No,Greedo
+3288647623,45-60,Male,"$150,000+",Graduate degree,South Atlantic,Yes,No,NA,Yes,Han
+3288644592,18-29,Female,"$0 - $24,999",Some college or Associate degree,West South Central,Yes,Yes,NA,No,Han
+3288644163,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,East South Central,Yes,Yes,No,Yes,Greedo
+3288639377,30-44,Female,"$100,000 - $149,999",Graduate degree,South Atlantic,Yes,Yes,Yes,No,I don't understand this question
+3288638640,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288635451,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,West South Central,Yes,No,Yes,Yes,Han
+3288629979,45-60,Female,"$50,000 - $99,999",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3288625580,45-60,Female,NA,Some college or Associate degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3288623870,45-60,Female,NA,Graduate degree,East South Central,Yes,Yes,NA,Yes,Han
+3288623033,45-60,Female,NA,Bachelor degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3288620198,30-44,Female,"$25,000 - $49,999",Some college or Associate degree,Mountain,Yes,Yes,NA,Yes,Greedo
+3288618459,45-60,Female,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3288617343,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288617091,18-29,Male,"$100,000 - $149,999",High school degree,Middle Atlantic,Yes,No,NA,No,Greedo
+3288614671,45-60,Female,"$50,000 - $99,999",Graduate degree,East North Central,Yes,No,NA,Yes,Han
+3288614539,30-44,Male,NA,Graduate degree,Mountain,Yes,Yes,NA,No,I don't understand this question
+3288614195,18-29,Female,"$25,000 - $49,999",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3288609566,18-29,Female,"$25,000 - $49,999",Bachelor degree,Mountain,Yes,No,NA,Yes,I don't understand this question
+3288608965,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288604946,45-60,Female,NA,Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3288602883,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3288601847,45-60,Male,"$50,000 - $99,999",Some college or Associate degree,West South Central,Yes,Yes,Yes,Yes,Han
+3288599799,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,Yes,No,Yes,Han
+3288599067,> 60,Female,"$50,000 - $99,999",Graduate degree,Mountain,Yes,Yes,NA,Yes,Greedo
+3288587373,NA,NA,NA,NA,NA,Yes,Yes,NA,Yes,Han
+3288586178,45-60,Female,"$50,000 - $99,999",Bachelor degree,East South Central,Yes,No,NA,No,Han
+3288585053,18-29,Female,"$50,000 - $99,999",Bachelor degree,Mountain,Yes,Yes,NA,Yes,Han
+3288584578,30-44,Male,"$50,000 - $99,999",Graduate degree,Mountain,Yes,Yes,NA,Yes,Han
+3288583884,> 60,Male,"$0 - $24,999",Graduate degree,NA,Yes,No,No,No,Greedo
+3288583591,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288581774,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288578983,45-60,Female,NA,Graduate degree,New England,Yes,No,NA,No,I don't understand this question
+3288578072,45-60,Female,"$150,000+",Graduate degree,West South Central,Yes,Yes,NA,Yes,I don't understand this question
+3288576462,45-60,Female,"$25,000 - $49,999",Some college or Associate degree,West South Central,Yes,Yes,NA,Yes,Han
+3288574703,30-44,Male,"$50,000 - $99,999",Graduate degree,East North Central,Yes,Yes,Yes,Yes,Han
+3288571196,30-44,Female,"$0 - $24,999",Bachelor degree,East North Central,Yes,No,NA,No,I don't understand this question
+3288568534,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3288567242,18-29,Female,"$100,000 - $149,999",Bachelor degree,East South Central,Yes,No,NA,No,I don't understand this question
+3288567154,> 60,Male,"$50,000 - $99,999",Graduate degree,Middle Atlantic,Yes,Yes,NA,Yes,Greedo
+3288563065,45-60,Male,"$0 - $24,999",Bachelor degree,NA,Yes,No,NA,No,I don't understand this question
+3288559700,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288559015,45-60,Female,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3288558131,> 60,Male,"$50,000 - $99,999",Graduate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3288553903,30-44,Male,"$25,000 - $49,999",High school degree,Middle Atlantic,Yes,Yes,NA,No,Greedo
+3288553457,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288552984,> 60,Female,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,I don't understand this question
+3288551156,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288547379,> 60,Male,"$25,000 - $49,999",Bachelor degree,West South Central,Yes,Yes,NA,No,Greedo
+3288545527,> 60,Female,"$50,000 - $99,999",Graduate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3288544295,45-60,Female,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3288538248,18-29,Male,"$0 - $24,999",Some college or Associate degree,Mountain,Yes,Yes,NA,Yes,Han
+3288536532,45-60,Female,"$150,000+",Bachelor degree,South Atlantic,Yes,Yes,No,Yes,Greedo
+3288534023,30-44,Female,"$25,000 - $49,999",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3288524042,> 60,Male,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,Yes,NA,No,I don't understand this question
+3288523874,18-29,Male,"$100,000 - $149,999",Graduate degree,Pacific,Yes,Yes,NA,Yes,Han
+3288522525,45-60,Female,"$150,000+",Some college or Associate degree,Middle Atlantic,Yes,Yes,NA,No,Han
+3288522488,18-29,Female,"$50,000 - $99,999",Graduate degree,South Atlantic,Yes,Yes,Yes,No,Han
+3288521325,30-44,Male,"$150,000+",Bachelor degree,New England,Yes,Yes,NA,No,Han
+3288519037,> 60,Female,"$150,000+",Graduate degree,South Atlantic,Yes,No,NA,No,I don't understand this question
+3288516295,> 60,Female,"$100,000 - $149,999",Graduate degree,East North Central,Yes,No,NA,No,I don't understand this question
+3288515773,45-60,Female,"$150,000+",Bachelor degree,East North Central,Yes,Yes,NA,No,Greedo
+3288514217,18-29,Female,"$50,000 - $99,999",Graduate degree,East South Central,Yes,No,NA,No,I don't understand this question
+3288512822,45-60,Female,NA,Graduate degree,Middle Atlantic,Yes,Yes,Yes,No,Han
+3288512665,18-29,Female,NA,Bachelor degree,East North Central,Yes,Yes,NA,Yes,Han
+3288512020,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288511180,45-60,Female,"$100,000 - $149,999",Some college or Associate degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3288509415,45-60,Female,NA,Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3288506275,45-60,Male,"$150,000+",Graduate degree,Middle Atlantic,Yes,Yes,NA,Yes,Greedo
+3288505925,18-29,Female,"$50,000 - $99,999",Some college or Associate degree,West North Central,Yes,Yes,NA,Yes,Han
+3288505737,18-29,Male,"$50,000 - $99,999",Bachelor degree,Pacific,Yes,Yes,NA,No,Han
+3288504398,45-60,Male,"$50,000 - $99,999",High school degree,Pacific,Yes,No,NA,No,I don't understand this question
+3288502884,18-29,Female,"$25,000 - $49,999",Graduate degree,New England,Yes,No,NA,Yes,I don't understand this question
+3288501301,18-29,Female,"$0 - $24,999",Graduate degree,Pacific,Yes,Yes,NA,No,I don't understand this question
+3288498715,30-44,Female,NA,Some college or Associate degree,South Atlantic,Yes,Yes,NA,Yes,Greedo
+3288497228,45-60,Male,"$100,000 - $149,999",Graduate degree,West North Central,Yes,Yes,NA,Yes,Han
+3288493077,45-60,Female,NA,Bachelor degree,Pacific,Yes,No,NA,No,Han
+3288492006,18-29,Female,"$25,000 - $49,999",Some college or Associate degree,East North Central,Yes,No,NA,Yes,I don't understand this question
+3288484535,45-60,Male,"$100,000 - $149,999",Graduate degree,West South Central,Yes,Yes,Yes,Yes,Greedo
+3288482717,18-29,Female,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Yes,Yes,No,Yes,Han
+3288482581,30-44,Male,"$50,000 - $99,999",Some college or Associate degree,East South Central,Yes,Yes,NA,Yes,I don't understand this question
+3288482369,18-29,Female,"$25,000 - $49,999",Some college or Associate degree,Mountain,Yes,No,Yes,Yes,Greedo
+3288479368,45-60,Female,NA,Bachelor degree,South Atlantic,Yes,Yes,NA,No,Greedo
+3288477753,45-60,Male,"$100,000 - $149,999",Bachelor degree,West South Central,Yes,No,NA,No,I don't understand this question
+3288476971,30-44,Female,"$50,000 - $99,999",Graduate degree,West North Central,Yes,Yes,NA,Yes,I don't understand this question
+3288469047,> 60,Male,"$50,000 - $99,999",Graduate degree,West North Central,Yes,No,Yes,No,I don't understand this question
+3288460192,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288459190,18-29,Female,NA,Graduate degree,West South Central,Yes,No,NA,No,I don't understand this question
+3288458873,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288456946,45-60,Female,NA,Graduate degree,Middle Atlantic,Yes,Yes,NA,Yes,Greedo
+3288455900,NA,NA,NA,NA,NA,Yes,NA,NA,NA,NA
+3288453555,> 60,Male,"$50,000 - $99,999",Graduate degree,Middle Atlantic,Yes,No,NA,No,Greedo
+3288446700,45-60,Male,"$150,000+",Graduate degree,New England,Yes,No,NA,Yes,I don't understand this question
+3288446529,> 60,Male,"$50,000 - $99,999",Bachelor degree,West North Central,Yes,Yes,No,Yes,I don't understand this question
+3288445926,45-60,Female,"$50,000 - $99,999",High school degree,West South Central,Yes,No,NA,No,I don't understand this question
+3288444784,> 60,Male,NA,Graduate degree,Pacific,Yes,Yes,NA,Yes,Han
+3288442728,30-44,Female,"$50,000 - $99,999",Graduate degree,East North Central,Yes,Yes,NA,Yes,Greedo
+3288429451,18-29,Female,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,Yes,Yes,Yes,Han
+3288429092,> 60,Female,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,Yes,NA,Yes,Greedo
+3288428243,45-60,Female,"$100,000 - $149,999",Graduate degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3288425859,30-44,Female,"$50,000 - $99,999",Graduate degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3288423045,45-60,Female,"$0 - $24,999",Bachelor degree,Pacific,Yes,No,NA,No,I don't understand this question
+3288420798,18-29,Female,"$25,000 - $49,999",Some college or Associate degree,Pacific,Yes,No,NA,No,I don't understand this question
+3288417782,NA,NA,NA,NA,NA,Yes,No,NA,No,Greedo
+3288417641,18-29,Female,"$25,000 - $49,999",Graduate degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3288416959,> 60,Female,NA,Bachelor degree,New England,Yes,No,No,No,Han
+3288415166,45-60,Male,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Yes,No,NA,No,Han
+3288414025,30-44,Female,"$50,000 - $99,999",Bachelor degree,Mountain,Yes,Yes,NA,Yes,Greedo
+3288413441,18-29,Female,"$150,000+",Some college or Associate degree,South Atlantic,Yes,Yes,NA,No,I don't understand this question
+3288410348,30-44,Female,NA,Graduate degree,East North Central,Yes,No,No,No,Greedo
+3288408698,45-60,Male,"$25,000 - $49,999",Bachelor degree,South Atlantic,Yes,Yes,NA,Yes,Han
+3288402643,> 60,Female,"$25,000 - $49,999",Bachelor degree,Mountain,Yes,Yes,Yes,Yes,Han
+3288402592,> 60,Female,NA,High school degree,Pacific,Yes,Yes,No,Yes,Greedo
+3288402511,30-44,Female,NA,Bachelor degree,Middle Atlantic,Yes,Yes,NA,Yes,Han
+3288401681,> 60,Female,NA,Some college or Associate degree,West North Central,Yes,No,NA,Yes,I don't understand this question
+3288401136,45-60,Female,"$50,000 - $99,999",Graduate degree,West South Central,Yes,Yes,No,Yes,Han
+3288398062,45-60,Female,"$0 - $24,999",High school degree,Middle Atlantic,Yes,No,NA,No,I don't understand this question
+3288396374,> 60,Male,"$50,000 - $99,999",Some college or Associate degree,Pacific,Yes,No,NA,Yes,I don't understand this question
+3288391812,45-60,Female,"$0 - $24,999",Some college or Associate degree,West North Central,Yes,Yes,NA,Yes,Han
+3288389603,45-60,Female,"$0 - $24,999",Some college or Associate degree,Pacific,Yes,Yes,NA,No,Han
+3288388730,18-29,Female,"$0 - $24,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Han
+3288378779,30-44,Female,"$50,000 - $99,999",Bachelor degree,Mountain,Yes,Yes,NA,Yes,I don't understand this question
+3288373068,45-60,Female,"$100,000 - $149,999",Some college or Associate degree,East North Central,Yes,Yes,NA,Yes,Han
+3288372923,> 60,Female,"$50,000 - $99,999",Graduate degree,Pacific,Yes,No,NA,No,I don't understand this question
