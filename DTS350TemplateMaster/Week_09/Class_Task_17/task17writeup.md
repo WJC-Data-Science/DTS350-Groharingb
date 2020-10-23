@@ -76,6 +76,7 @@ jan = stocks %>% filter(variable=="PROS") %>%
 My final graph plots, for each month, the returns on each DOW stock choice over the previous 6 months. You can see from this graph that DJIA has been the most consistent of the stocks over the measured period, though it too has fluctuated over time. 
 
 
+
 ![](task17writeup_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 
 Note that I included scale_x_discrete(drop = FALSE) in the above graph. If I had levels in monthyear without associated datapoints, adding that line would also add extra ticks to my x-axis. Since I set monthyear's levels as its existing values, I don't have empty levels, and the code makes no difference.
