@@ -56,8 +56,5 @@ p2 = ggplot() +
 
 #The Palmer family tends to measure heights around the turning of the month.
 
-p1
-ggsave("Height-By-Age.png",)
-
 ggsave("Height-By-Age.png",plot=p1,device="png",width=7,height=5,units="in")
 ggsave("Measurement-Timing.png",plot=p2,device="png",width=7,height=5,units="in")
