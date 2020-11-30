@@ -1,0 +1,361 @@
+---
+title: "DTS350 Semester Project"
+author: "Brooks Groharing"
+date: "12/18/2020"
+output:
+  html_document: 
+    fig_height: 6
+    fig_width: 9.5
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Introduction
+In this project, I wanted to explore two basic questions. First, how are carbon emissions distributed globally? And for those countries who contribute the most to global carbon emissions, what industries should be the focus of regulation efforts?
+
+```{r include=FALSE,echo=FALSE,warning=FALSE,results=FALSE}
+library(plyr)
+library(maptools)
+library(cshapes)
+library(tidyverse)
+library(dplyr)
+library(leaflet)
+library(flextable)
+library(sp)
+
+#Reading in the data from file
+cc_df = read_csv("co2-data-master/owid-co2-data.csv")
+```
+<hr>
+### Dataset
+
+<a href="https://ourworldindata.org/">Our World in Data</a> is a research  organization which compiles large datasets to describe major, global issues. For this project, I used their CO<sub>2</sub>/greenhouse gas dataset, which combines carbon emission and consumption data for each country, from a variety of sources. The data points go back as early as 1751 in some countries, and are updated up to 2018.
+
+<a href="https://github.com/owid/co2-data"></a>
+
+The researchers did a decent amount of cleanup already, standardizing country names and converting all tonne measurements to be in terms of carbon dioxide. They used a carbon dioxide:elemental carbon ratio of 3.664, based off their respective molar masses:
+
+ $\frac{MW_{CO_{2}}}{MW_{C}}=\frac{44.01 g/mol}{12.01 g/mol}=3.664$ 
+
+Here is a small sample of the data, showcasing just a slice of the useful variables in the dataset:
+
+```{r echo=FALSE}
+head(cc_df) %>% 
+  select("Country"=country,
+         "ISO Code"=iso_code,
+         "Year"=year,
+         "CO~2~ Emitted (Mt)"=co2,
+         "Per Capita"=co2_per_capita,
+         "% Growth"=co2_growth_prct,
+         "CO~2~ Consumed (Mt)"=consumption_co2,
+         "Population" = population) %>%
+  knitr::kable()
+```
+
+The full array of variables is laid out in the OWID codebook, with more detailed descriptions as well as attributions of the original sources they were pulled from.
+
+#### Data cleaning: What should count as a country?
+:::: {style="display: flex;"}
+::: {}
+Some entries in the OWID database lack ISO codes; this means that on top of literal countries, it include data for continents and regions, as well as a handful of former nations. (listed right) These can be tricky to map for a handful of reasons:
+
+* Regions can overlap with countries. 
+
+* It's not clear whether colonies are included in country totals.
+
+* The way the dates are divided up for former countries can be odd... see the date ranges on the USSR
+
+* Mapping shifting borders is just inherently difficult.
+
+While the regional/continental summaries could be useful for making geographic comparisons, for most visualizations I filtered them out of the dataset. 
+
+The majority of the other non-ISO entities are too small to really appear in my visualizations anyway. But, there are a few notable exceptions.
+
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+nonIso = cc_df %>% 
+  filter(is.na(iso_code)) %>%
+  group_by(country) %>%
+  summarise("Data Starts" = min(year),"Data Ends" = max(year)) %>%
+  select("Country"=country,"Data Starts","Data Ends")
+```                                                
+:::
+::: {}
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+slice(nonIso,0:15) %>% flextable::regulartable()
+```
+:::
+
+::: {}
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+  slice(nonIso,16:29) %>% flextable::regulartable()
+```
+:::
+::::
+
+:::: {style="display: flex;"}
+::: {}
+A list of potentially interesting former-countries and colonies, plus the 1991 Kuwaiti Oil Fires, are listed in the table to the right. Based on their contributions to global CO2 production, the USSR, Czechoslovakia, Yugoslavia, and the aforementioned fires are all relatively notable. These aren't really relevant to my main questions, but I did include them when looking at historical trends.
+
+:::
+
+::: {}
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+#Potentially interesting entities
+exNationsEtc = c("Kuwaiti Oil Fires",
+                "Macao",
+                "United Korea",
+                "USSR",
+                "Yugoslavia",
+                "Zanzibar",
+                "French Equatorial Africa",
+                "International Transport",
+                "Czechoslovakia")
+
+possibly_interesting=cc_df %>% filter(country %in% exNationsEtc) %>%
+  group_by(country) %>%
+  summarise('peak'=max(share_global_co2)) %>%
+  arrange(desc(peak)) %>%
+  select("Country" = country,
+         "Peak CO2 Contributions (% of global)" = peak)
+possibly_interesting %>% flextable::regulartable() #knitr::kable(caption="Possibly Interesting Former/Non-Countries")
+```
+:::
+::::
+
+<hr>
+
+### Historical Trends/Background
+#### Initial emissions
+
+I first looked at the year each country began emitting CO2, to get a better idea of the historical timeline. Simply graphing the number of new countries emitting CO2 by year helps show peak years of new development:
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+allowable = c("USSR","Yugoslavia","Czechoslovakia","Kuwaiti Oil Fires")
+
+#Creating list for future filtering
+nonIso=cc_df %>% 
+  filter(is.na(iso_code)) %>%
+  group_by(country) %>%
+  summarise("Data Starts" = min(year),"Data Ends" = max(year))
+
+excludable = nonIso %>%
+  distinct(country) %>%
+  rbind("World")
+
+#Country 'entrances' by year
+tl_df = cc_df %>% filter(co2>0) %>% group_by(country) %>%
+  summarise(begin=min(year),end=max(year),peak_share=max(share_global_co2)) %>%
+  arrange(begin) %>%
+  filter((country %in% excludable$country)==FALSE | (country %in% allowable)==TRUE) %>%
+  arrange(-peak_share)
+
+histo = tl_df %>% group_by(begin) %>% summarise(n=n())
+
+ggplot() + 
+  geom_col(data=histo,aes(x=begin,y=n)) +
+  geom_text(data=histo %>% arrange(-n) %>% head(4),
+            aes(x=begin+1,y=n+1,label=begin)) +
+  labs(title="New Countries Emitting CO2, by Year") +
+  xlab("Year") + ylab("Number of Countries Beginning to Produce CO2") +
+  theme_bw()
+```
+
+1950 and 1959 saw the first recorded emissions from a number of countries in Africa, as well as some in Asia and Central America. It's also worth noting that 1959 is also the year the dataset (somewhat arbitrarily) begins subdividing the USSR.
+
+#### The Global Picture
+
+```{r echo=FALSE,warning=FALSE}
+world = cc_df %>% filter(country=='World')
+
+p_yearly=ggplot(data=world) + 
+  geom_line(aes(x=year,y=co2)) +
+  ylab("CO2 Produced (millions of tonnes)") +
+  xlab("Year") +
+  ggtitle("Yearly Global CO2 Production, 1751-2018") +
+  theme_bw()
+
+p_cumulative=ggplot(data=world) + 
+  geom_line(aes(x=year,y=cumulative_co2)) +
+  ylab("CO2 Produced (millions of tonnes)") +
+  xlab("Year") +
+  ggtitle("Cumulative Global CO2 Production, 1751-2018") +
+  theme_bw()
+
+```
+
+```{r echo=FALSE}
+p_yearly
+```
+
+```{r echo=FALSE}
+p_cumulative
+```
+
+<hr>
+
+### The distribution today
+#### Largest Contributors Overall
+```{r include=FALSE,echo=FALSE,warning=FALSE,results=FALSE}
+#Merges carbon data with an sp defining borders.
+#Only gets the set of countries in both borders/data df (intersection), based on ISO codes.
+#This is partly based off the following stack overflow answer:
+#https://stackoverflow.com/questions/3650636/how-to-attach-a-simple-data-frame-to-a-spatialpolygondataframe-in-r
+sp_merge = function(carbon_data,borders){
+  #carbon_data = cc_df %>% filter(year==1998)
+  #borders = cshp(date=as.Date("1998-1-1"), useGW=TRUE)
+  
+  #Filter out country shapes not in carbon_data
+  isos = (carbon_data %>% filter(is.na(iso_code)==FALSE) %>% select(iso_code))[[1]]
+  new = subset(borders,ISO1AL3 %in% isos)
+  
+  #Merge carbon data into sp.
+  new@data = data.frame(new@data, carbon_data[match(as.vector(new@data[,'ISO1AL3']), 
+                                                    carbon_data[,'iso_code']$iso_code),])
+  return(new)
+}
+
+carbon_2018 = cc_df %>% filter(year==2018)
+borders_2016 = cshp(date=as.Date("2016-1-1"), useGW=TRUE) #border data is less recent
+
+merged_2018 = sp_merge(carbon_2018,borders_2016)
+
+bins = (0:19)*200
+palette = colorBin("BuGn", domain = cc_df$co2, bins = bins,reverse=FALSE)
+
+chloropleth=leaflet(data=merged_2018) %>%
+  addProviderTiles(providers$CartoDB.PositronNoLabels) %>%
+  addPolygons(stroke = TRUE,fill=TRUE,fillOpacity=1,
+              opacity=.1,color="#595959",weight=1,
+              fillColor = ~palette(merged_2018$co2),
+              highlightOptions = highlightOptions(color="#000000",opacity = 1),
+              label=str_c(merged_2018@data$country," ",merged_2018@data$co2," Mt"),
+              popup=str_c("<b>",merged_2018@data$country,"</b><br>",
+                          round(merged_2018@data$co2)," million tonnes<br>",
+                          merged_2018@data$share_global_co2,"% of global emissions<br>"
+                          )
+              ) %>%
+  addLegend(pal=palette,values=~co2,position="bottomright",opacity=0.5)
+```
+
+```{r include=FALSE,warning=FALSE,echo=FALSE}
+#Looking by country (top 20, 2018)
+by_country = cc_df %>% filter(country != "World") %>% arrange(desc(share_global_co2)) %>% filter(is.na(iso_code)==FALSE) %>% filter(year==2018)
+topShare = by_country %>% mutate(country = fct_reorder(country,-share_global_co2)) 
+
+top_absolute = ggplot(head(topShare,20)) +
+  geom_col(aes(x=country,y=share_global_co2)) +
+  geom_text(aes(x=country,y=share_global_co2+1,label=str_c(round(share_global_co2,digits=1),"%"))) +
+  labs(title=bquote('Top'*~CO[2]~"Producing Nations, 2018")) +
+  xlab("Country") + ylab(bquote("Share of Global"~CO[2])) +
+  theme_bw() +
+  theme(axis.text.x=element_text(angle=15,vjust=.9))
+```
+
+```{r echo=FALSE}
+chloropleth
+```
+
+```{r echo=FALSE}
+top_absolute
+```
+
+The top five CO2 producing countries were responsible for 57.4% of global CO2 emissions in 2018. Note, as I will explore further below, that none of these countries were among the top producers relative to their populations; they are, as a group, just highly industrialized and/or populous. Still, since they are responsible for such a sizeable chunk of globable emissions, I decided to look at the sources of carbon emissions in each of these countries in more detail.
+
+#### Parsing by Carbon Source
+
+```{r warning=FALSE,echo=FALSE}
+china = cc_df %>% filter(year==2018,country=='China') %>% select(country,cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2,gas_co2) %>% pivot_longer(cols=c(cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2))
+
+ggplot(data=china,aes(x=name,y=value)) + geom_col() +
+xlab("CO2 Category") + ylab("Mt produced") +
+ggtitle("CO2 by Source, China") +
+theme_bw()
+```
+
+
+
+```{r warning=FALSE,echo=FALSE}
+US = cc_df %>% filter(year==2018,country=='US') %>% select(country,cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2,gas_co2) %>% pivot_longer(cols=c(cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2))
+
+ggplot(data=china,aes(x=name,y=value)) + geom_col() +
+xlab("CO2 Category") + ylab("Mt produced") +
+ggtitle("CO2 by Source, US") +
+theme_bw()
+```
+
+
+
+```{r warning=FALSE,echo=FALSE}
+india = cc_df %>% filter(year==2018,country=='India') %>% select(country,cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2,gas_co2) %>% pivot_longer(cols=c(cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2))
+
+ggplot(data=india,aes(x=name,y=value)) + geom_col() +
+xlab("CO2 Category") + ylab("Mt produced") +
+ggtitle("CO2 by Source, India") +
+theme_bw()
+```
+
+
+
+```{r warning=FALSE,echo=FALSE}
+russia = cc_df %>% filter(year==2018,country=='Russia') %>% select(country,cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2,gas_co2) %>% pivot_longer(cols=c(cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2))
+
+ggplot(data=russia,aes(x=name,y=value)) + geom_col() +
+xlab("CO2 Category") + ylab("Mt produced") +
+ggtitle("CO2 by Source, Russia") +
+theme_bw()
+```
+
+
+
+```{r warning=FALSE,echo=FALSE}
+japan = cc_df %>% filter(year==2018,country=='China') %>% select(country,cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2,gas_co2) %>% pivot_longer(cols=c(cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2))
+
+ggplot(data=japan,aes(x=name,y=value)) + geom_col() +
+xlab("CO2 Category") + ylab("Mt produced") +
+ggtitle("CO2 by Source, Japan") +
+theme_bw()
+```
+
+
+
+```{r warning=FALSE,echo=FALSE}
+world = cc_df %>% filter(year==2018,country=='World') %>% select(country,cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2,gas_co2) %>% pivot_longer(cols=c(cement_co2,coal_co2,flaring_co2,gas_co2,oil_co2))
+
+ggplot(data=world,aes(x=name,y=value)) + geom_col() +
+xlab("CO2 Category") + ylab("Mt produced") +
+ggtitle("CO2 by Source, World") +
+theme_bw()
+```
+
+<hr>
+
+#### Parsing Per Capita
+```{r echo=FALSE}
+#Looking by country (top 20, 2018)
+
+
+per_cap = cc_df %>% filter(is.na(iso_code)==FALSE) %>% mutate(per_cap = co2/population*1000000) %>% filter(year==2018) %>% arrange(desc(per_cap)) %>% select(country,iso_code,per_cap)
+
+top_per_cap = per_cap %>% mutate(country = fct_reorder(country,-per_cap)) 
+
+ggplot(head(top_per_cap,20)) +
+  geom_col(aes(x=country,y=per_cap)) +
+  geom_text(aes(x=country,y=per_cap+1,label=str_c(round(per_cap,digits=1),"t"))) +
+  labs(title=bquote('Top'*~CO[2]~"Producing Nations, Per Capita, 2018")) +
+  xlab("Country") + ylab(bquote("Tonnes per Capita")) +
+  theme_bw() +
+  theme(axis.text.x=element_text(angle=35,vjust=.3))
+```
+
+While less notable in absolute terms, these nations could be argued to be doing the 'worst' at restricting their contributions to climate change. The United States stands out as relatively high in both rankings.
+
+<hr>
+
+### Conclusions
+
+Historically, carbon emissions increased globally over the 20th century, with newly industrializing nations joining the carbon economy in a few major waves.
+
+Today, China, the United States, India, Russia, and Japan are the largest contributors to CO2 in absolute terms. China, the U.S., India, and Japan should prioritize reduction in their reliance on coal; Russia has a more diverse energy economy, with major dependence on gas, oil, and coal (in that order). Globally, coal and oil dominate the carbon source distribution, with gas also a notable contributor. Cement and flaring gas are relatively small contributors, both globally and in each of these countries.
